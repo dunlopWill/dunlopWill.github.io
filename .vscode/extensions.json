@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "davidanson.vscode-markdownlint",
+        "bierner.markdown-mermaid",
+        "vscodevim.vim",
+        "sissel.shopify-liquid",
+        "streetsidesoftware.code-spell-checker"
+    ]
+}
