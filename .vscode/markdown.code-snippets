@@ -22,7 +22,18 @@
 			"categories:",
 			"  - tech",
 			"---"
-		]
+		],
+	"description": "Draft Jekyll post with front matter",
 	},
-	"description": "Draft Jekyll post with front matter"
+	"Jekyll page": {
+		"prefix": "page",
+		"body": [
+			"---",
+			"layout: page",
+			"title: ${1:title}",
+			"permalink: /${2:permalink}/",
+			"---"
+		],
+	"description": "Draft Jekyll page with front matter",
+	}
 }

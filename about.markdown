@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Hey!
+Welcome to my website!
 
-This is my blog. Thanks for visiting!
+Dive deeper into my:
 
-You'll find posts on a broad range of topics including:
+- [Employment history](../employment/ "Coming soon!")
+- [Projects](../projects/ "Coming soon!")
+- [Qualifications & education]( "Coming soon!")
+- [Skills](../skills/)
 
-- Tech;
-- Accountancy;
-- and more.
+Want to chat? See my [contact](../contact/) information.
+
+*P.S. I also have some [blog posts](../) if you like to read.*
