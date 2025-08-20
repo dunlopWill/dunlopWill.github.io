@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dunlopWill.github.io/dunlopWill.github.io/sitemap.xml
+Sitemap: https://dunlopWill.github.io/sitemap.xml
