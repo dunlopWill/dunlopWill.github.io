@@ -1,748 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://dunlopwill.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://dunlopwill.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-08-20T09:41:02+00:00</updated><id>https://dunlopwill.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">a post with plotly.js</title><link href="https://dunlopwill.github.io/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js"/><published>2025-03-26T14:24:00+00:00</published><updated>2025-03-26T14:24:00+00:00</updated><id>https://dunlopwill.github.io/blog/2025/plotly</id><content type="html" xml:base="https://dunlopwill.github.io/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
-</span><span class="sb">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "type": "scatter"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [16, 5, 11, 9],
-      "type": "scatter"
-    }
-  ]
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-plotly">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "type": "scatter"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [16, 5, 11, 9],
-      "type": "scatter"
-    }
-  ]
-}
-</code></pre> <p>Also another example chart.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
-</span><span class="sb">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "mode": "markers"
-    },
-    {
-      "x": [2, 3, 4, 5],
-      "y": [16, 5, 11, 9],
-      "mode": "lines"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [12, 9, 15, 12],
-      "mode": "lines+markers"
-    }
-  ],
-  "layout": {
-    "title": {
-      "text": "Line and Scatter Plot"
-    }
-  }
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>This is how it looks like:</p> <pre><code class="language-plotly">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "mode": "markers"
-    },
-    {
-      "x": [2, 3, 4, 5],
-      "y": [16, 5, 11, 9],
-      "mode": "lines"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [12, 9, 15, 12],
-      "mode": "lines+markers"
-    }
-  ],
-  "layout": {
-    "title": {
-      "text": "Line and Scatter Plot"
-    }
-  }
-}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included plotly.js code could look like]]></summary></entry><entry><title type="html">a post with image galleries</title><link href="https://dunlopwill.github.io/blog/2024/photo-gallery/" rel="alternate" type="text/html" title="a post with image galleries"/><published>2024-12-04T01:59:00+00:00</published><updated>2024-12-04T01:59:00+00:00</updated><id>https://dunlopwill.github.io/blog/2024/photo-gallery</id><content type="html" xml:base="https://dunlopwill.github.io/blog/2024/photo-gallery/"><![CDATA[<p>The images in this post are all zoomable, arranged into different mini-galleries using different libraries.</p> <h2 id="lightbox2"><a href="https://lokeshdhakar.com/projects/lightbox2/">Lightbox2</a></h2> <p><a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/></a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/></a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/></a></p> <hr/> <h2 id="photoswipe"><a href="https://photoswipe.com/">PhotoSwipe</a></h2> <div class="pswp-gallery pswp-gallery--single-column" id="gallery--getting-started"> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-pswp-width="1669" data-pswp-height="2500" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" alt=""/> </a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-2500.jpg" data-pswp-width="1875" data-pswp-height="2500" data-cropped="true" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-200.jpg" alt=""/> </a> <a href="https://unsplash.com" data-pswp-src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-pswp-width="2500" data-pswp-height="1666" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt=""/> </a> <div> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg" data-pswp-width="2500" data-pswp-height="1667" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg" alt=""/> </a> </div> </div> <hr/> <h2 id="spotlight-js"><a href="https://nextapps-de.github.io/spotlight/">Spotlight JS</a></h2> <div class="spotlight-group"> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/> </a> </div> <div class="spotlight-group"> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg"/> </a> </div> <hr/> <h2 id="venobox"><a href="https://veno.es/venobox/">Venobox</a></h2> <p><a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/></a> <a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/></a> <a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/></a></p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[this is what included image galleries could look like]]></summary></entry><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://dunlopwill.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://dunlopwill.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://dunlopwill.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[<p>May 14, 2024 We’re introducing a series of updates across the Gemini family of models, including the new 1.5 Flash, our lightweight model for speed and efficiency, and Project Astra, our vision for the future of AI assistants. In December, we launched our first natively multimodal model Gemini 1.0 in three sizes: Ultra, Pro and Nano. Just a few months later we released 1.5 Pro, with enhanced performance and a breakthrough long context window of 1 million tokens.Developers and enterprise customers have been putting 1.5 Pro to use in incredible ways and finding its long context window, multimodal reasoning capabilities and impressive overall performance incredibly useful.We know from user feedback that some applications need lower latency and a lower cost to serve. This inspired us to keep innovating, so today, we’re introducing Gemini 1.5 Flash: a model that’s lighter-weight than 1.5 Pro, and designed to be fast and efficient to serve at scale.Both 1.5 Pro and 1.5 Flash are available in public preview with a 1 million token context window in Google AI Studio and Vertex AI. And now, 1.5 Pro is also available with a 2 million token context window via waitlist to developers using the API and to Google Cloud customers.We’re also introducing updates across the Gemini family of models, announcing our next generation of open models, Gemma 2, and sharing progress on the future of AI assistants, with Project Astra.Context lengths of leading foundation models compared with Gemini 1.5’s 2 million token capability1.5 Flash is the newest addition to the Gemini model family and the fastest Gemini model served in the API. It’s optimized for high-volume, high-frequency tasks at scale, is more cost-efficient to serve and features our breakthrough long context window.While it’s a lighter weight model than 1.5 Pro, it’s highly capable of multimodal reasoning across vast amounts of information and delivers impressive quality for its size.The new Gemini 1.5 Flash model is optimized for speed and efficiency, is highly capable of multimodal reasoning and features our breakthrough long context window.1.5 Flash excels at summarization, chat applications, image and video captioning, data extraction from long documents and tables, and more. This is because it’s been trained by 1.5 Pro through a process called “distillation,” where the most essential knowledge and skills from a larger model are transferred to a smaller, more efficient model.Read more about 1.5 Flash in our updated Gemini 1.5 technical report, on the Gemini technology page, and learn about 1.5 Flash’s availability and pricing.Over the last few months, we’ve significantly improved 1.5 Pro, our best model for general performance across a wide range of tasks.Beyond extending its context window to 2 million tokens, we’ve enhanced its code generation, logical reasoning and planning, multi-turn conversation, and audio and image understanding through data and algorithmic advances. We see strong improvements on public and internal benchmarks for each of these tasks.1.5 Pro can now follow increasingly complex and nuanced instructions, including ones that specify product-level behavior involving role, format and style. We’ve improved control over the model’s responses for specific use cases, like crafting the persona and response style of a chat agent or automating workflows through multiple function calls. And we’ve enabled users to steer model behavior by setting system instructions.We added audio understanding in the Gemini API and Google AI Studio, so 1.5 Pro can now reason across image and audio for videos uploaded in Google AI Studio. And we’re now integrating 1.5 Pro into Google products, including Gemini Advanced and in Workspace apps.Read more about 1.5 Pro in our updated Gemini 1.5 technical report and on the Gemini technology page.Gemini Nano is expanding beyond text-only inputs to include images as well. Starting with Pixel, applications using Gemini Nano with Multimodality will be able to understand the world the way people do — not just through text, but also through sight, sound and spoken language.Read more about Gemini 1.0 Nano on Android.Today, we’re also sharing a series of updates to Gemma, our family of open models built from the same research and technology used to create the Gemini models.We’re announcing Gemma 2, our next generation of open models for responsible AI innovation. Gemma 2 has a new architecture designed for breakthrough performance and efficiency, and will be available in new sizes.The Gemma family is also expanding with PaliGemma, our first vision-language model inspired by PaLI-3. And we’ve upgraded our Responsible Generative AI Toolkit with LLM Comparator for evaluating the quality of model responses.Read more on the Developer blog.As part of Google DeepMind’s mission to build AI responsibly to benefit humanity, we’ve always wanted to develop universal AI agents that can be helpful in everyday life. That’s why today, we’re sharing our progress in building the future of AI assistants with Project Astra (advanced seeing and talking responsive agent).To be truly useful, an agent needs to understand and respond to the complex and dynamic world just like people do — and take in and remember what it sees and hears to understand context and take action. It also needs to be proactive, teachable and personal, so users can talk to it naturally and without lag or delay.While we’ve made incredible progress developing AI systems that can understand multimodal information, getting response time down to something conversational is a difficult engineering challenge. Over the past few years, we’ve been working to improve how our models perceive, reason and converse to make the pace and quality of interaction feel more natural.Building on Gemini, we’ve developed prototype agents that can process information faster by continuously encoding video frames, combining the video and speech input into a timeline of events, and caching this information for efficient recall.By leveraging our leading speech models, we also enhanced how they sound, giving the agents a wider range of intonations. These agents can better understand the context they’re being used in, and respond quickly, in conversation.With technology like this, it’s easy to envision a future where people could have an expert AI assistant by their side, through a phone or glasses. And some of these capabilities are coming to Google products, like the Gemini app and web experience, later this year.We’ve made incredible progress so far with our family of Gemini models, and we’re always striving to advance the state-of-the-art even further. By investing in a relentless production line of innovation, we’re able to explore new ideas at the frontier, while also unlocking the possibility of new and exciting Gemini use cases.Learn more about Gemini and its capabilities. Your information will be used in accordance with Google’s privacy policy.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      Done. Just one step more.
-    
-      Check your inbox to confirm your subscription.
-    You are already subscribed to our newsletter.
-    You can also subscribe with a
-    different email address
-    
-    .
-    
-  Let’s stay in touch. Get the latest news from Google in your inbox.
-          Follow Us
-</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">a post with tabs</title><link href="https://dunlopwill.github.io/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs"/><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://dunlopwill.github.io/blog/2024/tabs</id><content type="html" xml:base="https://dunlopwill.github.io/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p> <h2 id="first-tabs">First tabs</h2> <p>To add tabs, use the following syntax:</p> <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">tabs</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="cp">%}</span>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://dunlopwill.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://dunlopwill.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-08-20T20:39:02+00:00</updated><id>https://dunlopwill.github.io/feed.xml</id><title type="html">blank</title><subtitle>A personal website for Will Dunlop MSc ACA. </subtitle><entry><title type="html">developer accountants</title><link href="https://dunlopwill.github.io/blog/2025/developer-accountants/" rel="alternate" type="text/html" title="developer accountants"/><published>2025-08-19T19:57:33+00:00</published><updated>2025-08-19T19:57:33+00:00</updated><id>https://dunlopwill.github.io/blog/2025/developer-accountants</id><content type="html" xml:base="https://dunlopwill.github.io/blog/2025/developer-accountants/"><![CDATA[<h2 id="contents">Contents</h2> <ul> <li><a href="#accountants-are-de-facto-developers">Accountants are <em>de facto</em> developers</a></li> <li><a href="#excel-is-programming">Excel is programming</a></li> <li><a href="#formulas-are-functions">Formulas are functions</a></li> <li><a href="#problem-solving">Problem solving</a></li> <li><a href="#summary">Summary</a></li> <li><a href="#bonus:-getting-started-with-python-in-excel">BONUS: Getting started with Python in Excel</a></li> </ul> <h2 id="accountants-are-de-facto-developers">Accountants are <em>de facto</em> developers</h2> <p>I first heard of <a href="https://silverfin.com/resources/developer-accountant-intro/">Developer Accountants</a> from <a href="https://silverfin.com/">Silverfin</a>.</p> <p>And it got me thinking… <em>most</em> accountants are <em>de facto</em> developers.</p> <p>The <em>de jure</em> job title might suggest otherwise but when the daily activities of accountants are observed, a different picture emerges.</p> <h2 id="excel-is-programming">Excel is programming</h2> <p>”<a href="https://www.microsoft.com/en-us/research/podcast/advancing-excel-as-a-programming-language-with-andy-gordon-and-simon-peyton-jones/"><em>…Excel is the world’s most widely used functional programming language.</em></a>” - <a href="https://simon.peytonjones.org/">Simon Peyton Jones</a></p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <iframe src="https://youtube.com/shorts/YPSGL2MsES4?feature=shared" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"/> </figure> </div> </div> <p>”<a href="https://youtube.com/shorts/YPSGL2MsES4?feature=shared"><em>…This pisses a lot of developers off because it turns out that people in the accounts department have been doing FP [Functional Programming] for longer than they have.</em></a>” - <a href="https://x.com/kevlinhenney?lang=en">Kevlin Henney</a></p> <p>That’s right. Spreadsheets rule the profession. In industry and practice, accountants use Excel every day. Whether they know it or not, every time they type an Excel formula they are programming.</p> <h2 id="formulas-are-functions">Formulas are functions</h2> <p>A function is piece of code that takes something as an input, does something and returns an output.</p> <p>Let’s take a closer look at the first function most accountants learn: <a href="https://support.microsoft.com/en-gb/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89">SUM</a></p> <p>When you type <code class="language-plaintext highlighter-rouge">=SUM(</code> into Excel it will display the interface for you:</p> <pre><code class="language-excel">SUM(number1, [number2], ...)
+</code></pre> <p>SUM is a function that takes one or more numbers and returns the result of adding them all together.</p> <p>Let me show you what <a href="https://docs.python.org/3/library/functions.html#sum">sum</a> looks like in <a href="https://www.python.org/">Python</a> (one of the world’s most popular programming languages):</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">sum</span><span class="p">(</span><span class="n">iterable</span><span class="p">,</span> <span class="o">/</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="c1"># Sums start and the items of an iterable from left to right and returns the total.
+#The iterable’s items are normally numbers...
+</span></code></pre></div></div> <p>Doesn’t look too different, does it?</p> <p>But wait, what’s an iterable?</p> <p>Say you have the following data in Excel:</p> <table> <thead> <tr> <th style="text-align: center"> </th> <th style="text-align: center">A</th> </tr> </thead> <tbody> <tr> <td style="text-align: center">1</td> <td style="text-align: center">10</td> </tr> <tr> <td style="text-align: center">2</td> <td style="text-align: center">20</td> </tr> <tr> <td style="text-align: center">3</td> <td style="text-align: center">30</td> </tr> <tr> <td style="text-align: center">4</td> <td style="text-align: center">40</td> </tr> </tbody> </table> <p>When you use SUM in Excel, you probably don’t type <code class="language-plaintext highlighter-rouge">=SUM(A1+A2+A3+A4)</code>. You probably use a cell range and type:</p> <pre><code class="language-excel">=SUM(A1:A4)
+</code></pre> <p>The cell range is an iterable. Each element in the cell range is a reference to a cell.</p> <p>Here’s the same in Python:</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nf">sum</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+</code></pre></div></div> <p>The only difference is that our iterable is a list of numbers (rather than a cell range).</p> <h2 id="problem-solving">Problem solving</h2> <p>Okay, so that’s a fairly simple example.</p> <p>Developers solve complex problems with their programming. But how do they do that?</p> <p>Well, how do you eat an elephant (personal aside: by the way, I’d rather you didn’t eat elephants)? Piece by piece.</p> <p>Developers break a single complex problem down into multiple simple problems, solving each one and stitching it all together.</p> <p>Accountants often do the same in Excel.</p> <p>Say you have the following data…</p> <table> <thead> <tr> <th style="text-align: center"> </th> <th style="text-align: center">A</th> <th style="text-align: center">B</th> </tr> </thead> <tbody> <tr> <td style="text-align: center">1</td> <td style="text-align: center">Email</td> <td style="text-align: center">Name</td> </tr> <tr> <td style="text-align: center">2</td> <td style="text-align: center">bob@example.com</td> <td style="text-align: center"> </td> </tr> <tr> <td style="text-align: center">3</td> <td style="text-align: center">bill@example.com</td> <td style="text-align: center"> </td> </tr> </tbody> </table> <p>…and you want to get the bit before the email domain (the name) for each cell. You could <em>nest</em> some formulas together…</p> <pre><code class="language-excel">=LEFT(A2,FIND("@",A2)-1)
+</code></pre> <p>…and then apply that to each cell (by dragging the formula down)…</p> <table> <thead> <tr> <th style="text-align: center"> </th> <th style="text-align: center">A</th> <th style="text-align: center">B</th> </tr> </thead> <tbody> <tr> <td style="text-align: center">1</td> <td style="text-align: center">Email</td> <td style="text-align: center">Name</td> </tr> <tr> <td style="text-align: center">2</td> <td style="text-align: center">bob@example.com</td> <td style="text-align: center">=LEFT(A2,FIND(“@”,A2)-1)</td> </tr> <tr> <td style="text-align: center">3</td> <td style="text-align: center">bill@example.com</td> <td style="text-align: center">=LEFT(A3,FIND(“@”,A3)-1)</td> </tr> </tbody> </table> <p>…giving you:</p> <table> <thead> <tr> <th style="text-align: center"> </th> <th style="text-align: center">A</th> <th style="text-align: center">B</th> </tr> </thead> <tbody> <tr> <td style="text-align: center">1</td> <td style="text-align: center">Email</td> <td style="text-align: center">Name</td> </tr> <tr> <td style="text-align: center">2</td> <td style="text-align: center">bob@example.com</td> <td style="text-align: center">bob</td> </tr> <tr> <td style="text-align: center">3</td> <td style="text-align: center">bill@example.com</td> <td style="text-align: center">bill</td> </tr> </tbody> </table> <p>What have we done to solve this more complex problem? We broke it down into the following steps:</p> <ol> <li><code class="language-plaintext highlighter-rouge">FIND("@",A2)</code>: Take the text in the cell reference (<code class="language-plaintext highlighter-rouge">A2</code>) and find the position of the <em>delimiter</em> (<code class="language-plaintext highlighter-rouge">"@"</code>) in that text. “@” is the fourth character in “bob@example.com”</li> <li>Take the text in the cell reference (<code class="language-plaintext highlighter-rouge">A2</code>) and return the <em>n</em> characters (where n is the position of the delimiter less one, so that the delimiter is not included in the result). Note: <code class="language-plaintext highlighter-rouge">=LEFT(A2,FIND("@",A2)-1)</code> evaluates to <code class="language-plaintext highlighter-rouge">=LEFT(A2,4-1)</code></li> <li>Do this <em>for each</em> cell.</li> </ol> <p>How would a developer do the same in Python?</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">emails</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="sh">"</span><span class="s">bob@example.com</span><span class="sh">"</span><span class="p">,</span>
+      <span class="sh">"</span><span class="s">bill@example.com</span><span class="sh">"</span><span class="p">,</span>
+    <span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">names</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">for</span> <span class="n">email</span> <span class="ow">in</span> <span class="n">emails</span><span class="p">:</span>
+      <span class="n">names</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">email</span><span class="p">[:</span><span class="n">email</span><span class="p">.</span><span class="nf">find</span><span class="p">(</span><span class="sh">"</span><span class="s">@</span><span class="sh">"</span><span class="p">)])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">names</span>
+<span class="p">[</span><span class="sh">'</span><span class="s">bob</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">bill</span><span class="sh">'</span><span class="p">]</span>
+</code></pre></div></div> <p>Here the code preforms the following steps for each email in emails:</p> <ol> <li>Find the position of the <em>delimiter</em> “@”: <code class="language-plaintext highlighter-rouge">email.find("a")</code></li> <li>Take all the characters of email up to the delimiter’s position: <code class="language-plaintext highlighter-rouge">email[:email.find("@")]</code> (for “bob@example.com” this evaluates to <code class="language-plaintext highlighter-rouge">email[:3]</code>, note that Python starts counting from 0; whereas Excel starts counting from 1)</li> <li>Append these to the names list: <code class="language-plaintext highlighter-rouge">names.append(email[:email.find("@")])</code> (for “bob@example.com” this evaluates to <code class="language-plaintext highlighter-rouge">names.append("bob")</code>)</li> </ol> <h2 id="summary">Summary</h2> <p>Developers are people that use programming languages to solve problems.</p> <p>A programming language is a digital tool that lets you write functions to solve a problem.</p> <p>Excel is a digital tool that lets you write functions to solve a problem.</p> <p>Therefore Excel is a programming language.</p> <p>Accountants use Excel to solve problems.</p> <p>Therefore accountants are developers.</p> <h2 id="bonus-getting-started-with-python-in-excel">BONUS: Getting started with Python in Excel</h2> <p>Perhaps you are an accountant and, recognizing that you are also a developer, you want to expand the programming languages that you already know.</p> <p><a href="https://www.python.org/about/gettingstarted/">Python</a> can be fairly quick to pick up and if you might already have it available to you in Excel.</p> <p>If you have “Insert Python” listed when you click “Formulas” in the Excel ribbon, you have Python in Excel (luck you!).</p> <p>Read the <a href="https://support.microsoft.com/en-gb/office/get-started-with-python-in-excel-a33fbcbe-065b-41d3-82cf-23d05397f53d">docs</a> and get practicing.</p> <p>Let’s do the above Python implementation again using Excel as our developer environment.</p> <p>Say you have the following data…</p> <table> <thead> <tr> <th style="text-align: center"> </th> <th style="text-align: center">A</th> <th style="text-align: center">B</th> </tr> </thead> <tbody> <tr> <td style="text-align: center">1</td> <td style="text-align: center">Email</td> <td style="text-align: center">Name</td> </tr> <tr> <td style="text-align: center">2</td> <td style="text-align: center">bob@example.com</td> <td style="text-align: center"> </td> </tr> <tr> <td style="text-align: center">3</td> <td style="text-align: center">bill@example.com</td> <td style="text-align: center"> </td> </tr> </tbody> </table> <p>Start a Python function in cell <code class="language-plaintext highlighter-rouge">B2</code> by entering <code class="language-plaintext highlighter-rouge">=PY(</code>.</p> <p>Now enter the following:</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">email</span> <span class="o">=</span> <span class="nf">xl</span><span class="p">(</span><span class="sh">"</span><span class="s">A2</span><span class="sh">"</span><span class="p">)</span>  <span class="c1"># Get the text from the cell reference
+</span><span class="n">name</span> <span class="o">=</span> <span class="n">email</span><span class="p">[:</span><span class="n">email</span><span class="p">.</span><span class="nf">find</span><span class="p">(</span><span class="sh">"</span><span class="s">@</span><span class="sh">"</span><span class="p">)]</span>  <span class="c1"># Get the name
+</span></code></pre></div></div> <p>Drag the cell formula down.</p> <p>You’ll end up with:</p> <table> <thead> <tr> <th style="text-align: center"> </th> <th style="text-align: center">A</th> <th style="text-align: center">B</th> </tr> </thead> <tbody> <tr> <td style="text-align: center">1</td> <td style="text-align: center">Email</td> <td style="text-align: center">Name</td> </tr> <tr> <td style="text-align: center">2</td> <td style="text-align: center">bob@example.com</td> <td style="text-align: center">[PY] bob</td> </tr> <tr> <td style="text-align: center">3</td> <td style="text-align: center">bill@example.com</td> <td style="text-align: center">[PY] bill</td> </tr> </tbody> </table>]]></content><author><name></name></author><category term="tech"/><category term="developer"/><category term="accountants"/><category term="excel"/><category term="python"/><category term="programming"/><summary type="html"><![CDATA[Contents]]></summary></entry><entry><title type="html">starting a blog with jekyll</title><link href="https://dunlopwill.github.io/blog/2025/starting-a-blog-with-jekyll/" rel="alternate" type="text/html" title="starting a blog with jekyll"/><published>2025-08-05T22:08:00+00:00</published><updated>2025-08-05T22:08:00+00:00</updated><id>https://dunlopwill.github.io/blog/2025/starting-a-blog-with-jekyll</id><content type="html" xml:base="https://dunlopwill.github.io/blog/2025/starting-a-blog-with-jekyll/"><![CDATA[<p>Welcome to my first blog post!</p> <p>I thought that I would use my first blog post to document and justify:</p> <ul> <li><a href="#why">why</a> I’ve started a blog;</li> <li><a href="#who">who</a> its for;</li> <li><a href="#what">what</a> its built with;</li> <li><a href="#where">where</a> its hosted;</li> <li><a href="#how">how</a> you can build one too;</li> </ul> <h2 id="why">Why?</h2> <p>“<em>Why start a blog?</em>”</p> <p>Essentially, so I can:</p> <ul> <li><a href="#contribute">Contribute</a></li> <li><a href="#practice">Practice</a></li> <li><a href="#create">Create</a></li> <li><a href="#develop">Develop</a></li> <li><a href="#share">Share</a></li> </ul> <h3 id="contribute">Contribute</h3> <p>A colleague of mine sent me a link <a href="https://grantslatton.com/how-to-design-document?utm_source=tldrnewsletter">Grant Slatton’s ‘How to write a good design document’</a> and I thought it was really good.</p> <p>So, then I explored his posts and found <a href="https://grantslatton.com/small-web">‘Small Web’</a>; a post noting that the internet needs more “<strong>small web</strong>” sites.</p> <p>I’d like to contribute a small web site. The internet is filling up with posts written by Generative AI. Maybe I can provide something original?</p> <h3 id="practice">Practice</h3> <p>Its rare I get to write a lot of prose these days. I’m out of practice. So, it wouldn’t surprise me if my writing skills had deteriorated.</p> <p>What better way to get back than give my self somewhere to practice writing? Maybe I’ll get better than I’ve ever been. Perhaps I’ll even expand my vocabulary.</p> <h3 id="create">Create</h3> <p>I think this could be a creative outlet. A space to make something, even if just for myself. If just once someone happens to read any of my posts and find some joy from them that would be a bonus.</p> <h3 id="develop">Develop</h3> <p>For the last few years I’ve been working as a developer. My developer ego feels unsatisfied that I don’t have my own website.</p> <p>Moreover, this is an opportunity to learn another set of technologies that make this web site work.</p> <h3 id="share">Share</h3> <p>I’m 30 now and like everyone, I’ve learnt some things. Maybe sharing what I’ve learned could help someone else one day.</p> <h2 id="who">Who?</h2> <p>“<em>Who is this blog for?</em>”</p> <p>Everyone.</p> <p>When I’m writing it, its for me.</p> <p>When you’re reading it, its for you.</p> <h2 id="what">What?</h2> <p>“<em>What did I use to build this blog?</em>”</p> <p>This blog is built using <a href="https://jekyllrb.com/">Jekyll</a>, a <a href="https://jekyllrb.com/docs/ruby-101/#gems">Ruby Gem</a>.</p> <p>Something based on <a href="https://www.ruby-lang.org/en/">Ruby</a> would not have been my first choice because I’ve no former experience with it.</p> <p>Microsoft Copilot suggested it when I asked what web framework I could use to develop my own blog with.</p> <p>My primary reasons for trying it out are twofold.</p> <p>Firstly, the majority of content can be written in <a href="https://www.markdownguide.org/">Markdown</a>. Meaning that, what I write is very transportable. For example, I can simply copy and paste content to and from my favorite note taking application; <a href="https://obsidian.md/">Obsidian</a>.</p> <p>Secondly, it easily integrates with <a href="https://pages.github.com/">GitHub Pages</a>. Meaning that, deployment is a breeze.</p> <p>A bonus too is that I get some exposure to other programming languages and expand my skill set.</p> <p>The icing on the cake? Pre-built themes. I can focus on the content and the framework will make it look presentable for me.</p> <h2 id="where">Where?</h2> <p>“<em>Where is this blog hosted?</em>”</p> <p>As I said before, <a href="https://pages.github.com/">GitHub Pages</a>.</p> <p>This blog is maintained via a <a href="https://github.com/">GitHub</a> repository. How cool is that? I benefit from all of <a href="https://git-scm.com/">git</a>’s version control capabilities!</p> <p>It’s deployed using <a href="https://github.com/features/actions">GitHub Actions</a>.</p> <h2 id="how">How?</h2> <p>“<em>How can you build a blog using Jekyll?</em>”</p> <p>Would you like to know how to build a blog like this yourself?</p> <p>I’ll tell you anyway.</p> <h3 id="create-a-github-repository">Create a GitHub repository</h3> <p>Assuming you have an account, create a <a href="https://github.com/">GitHub</a> repository and name it “<em>username</em>.github.io” (<strong>remember to replace “<em>username</em>” with your actual username</strong> - that’s worth keeping in mind in the following steps to).</p> <p>Make sure you set visibility to “Public”.</p> <p>I suggest adding a README.md for your own benefit (so set it to “On”, rather than “Off”).</p> <p>Save yourself from problems later by adding a .gitignore and select “Jekyll”.</p> <h3 id="clone-your-repository">Clone your repository</h3> <p>Clone your repository.</p> <h3 id="install-requirements">Install requirements</h3> <p>Essentially, you are going to need:</p> <ul> <li>ruby</li> <li>gem</li> <li>bundler</li> <li>jekyll</li> </ul> <p>You can figure out how to install these pre-requisites. I believe in you.</p> <h4 id="i-use-nixos-btw">I use <a href="https://nixos.org/">NixOS</a> btw</h4> <p>I will show you what I did to install what I needed on <a href="https://nixos.org/">NixOS</a>.</p> <p>I’m still fairly new to this OS, so forgive me, I know this is not the nix-way:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nix-shell <span class="nt">-p</span> ruby gem bundler
+gem <span class="nb">install </span>jekyll bundler
+</code></pre></div></div> <h3 id="create-a-new-blog">Create a new blog</h3> <p>Run:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>username.github.io
+jekyll new myblog
+<span class="nb">cp </span>myblog/<span class="k">*</span> ./ <span class="nt">-r</span>  <span class="c"># cp the files over</span>
+<span class="nb">rm </span>myblog/ <span class="nt">-r</span>  <span class="c"># rm the old directory</span>
+bundle <span class="nb">install</span>  <span class="c"># install missing gems</span>
+</code></pre></div></div> <p>Ready to see what your new blog looks like? Run:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div> <p>Then go to: http://localhost:4000</p> <p>To stop serving, use <code class="language-plaintext highlighter-rouge">Ctrl</code>+<code class="language-plaintext highlighter-rouge">c</code>.</p> <p>You’ll get the <a href="https://github.com/jekyll/minima?tab=readme-ov-file">Minima</a> theme by default.</p> <h3 id="commit-the-files">Commit the files</h3> <p>Run:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="nb">.</span>
+git commit <span class="nt">-m</span> <span class="s2">"my first commit"</span>
+git push origin main
+</code></pre></div></div> <h3 id="add-the-workflow">Add the workflow</h3> <p>Go to your <a href="https://github.com">GitHub</a> repository.</p> <p>Click “Settings” (at the top)</p> <p>Click “Pages” (under “Code and automation”)</p> <p>Click “GitHub Actions” (under “Source”, which is under “Build and deployment”)</p> <p>Click “Actions (at the top)</p> <p>Set up a workflow using “Jekyll” (that’s <em>exactly</em> what its called).</p> <p>You should get a file called <code class="language-plaintext highlighter-rouge">.github/workflows/jekyll.yml</code>:</p> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># This workflow uses actions that are not certified by GitHub.</span>
+<span class="c1"># They are provided by a third-party and are governed by</span>
+<span class="c1"># separate terms of service, privacy policy, and support</span>
+<span class="c1"># documentation.</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-1</span><span class="w"> </span><span class="cp">%}</span>
+<span class="c1"># Sample workflow for building and deploying a Jekyll site to GitHub Pages</span>
+<span class="na">name</span><span class="pi">:</span> <span class="s">Deploy Jekyll site to Pages</span>
 
-Content 1
+<span class="na">on</span><span class="pi">:</span>
+  <span class="c1"># Runs on pushes targeting the default branch</span>
+  <span class="na">push</span><span class="pi">:</span>
+    <span class="na">branches</span><span class="pi">:</span> <span class="pi">[</span><span class="s2">"</span><span class="s">main"</span><span class="pi">]</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
+  <span class="c1"># Allows you to run this workflow manually from the Actions tab</span>
+  <span class="na">workflow_dispatch</span><span class="pi">:</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-2</span><span class="w"> </span><span class="cp">%}</span>
+<span class="c1"># Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages</span>
+<span class="na">permissions</span><span class="pi">:</span>
+  <span class="na">contents</span><span class="pi">:</span> <span class="s">read</span>
+  <span class="na">pages</span><span class="pi">:</span> <span class="s">write</span>
+  <span class="na">id-token</span><span class="pi">:</span> <span class="s">write</span>
 
-Content 2
+<span class="c1"># Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.</span>
+<span class="c1"># However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.</span>
+<span class="na">concurrency</span><span class="pi">:</span>
+  <span class="na">group</span><span class="pi">:</span> <span class="s2">"</span><span class="s">pages"</span>
+  <span class="na">cancel-in-progress</span><span class="pi">:</span> <span class="kc">false</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
+<span class="na">jobs</span><span class="pi">:</span>
+  <span class="c1"># Build job</span>
+  <span class="na">build</span><span class="pi">:</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+    <span class="na">steps</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Checkout</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v4</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Setup Ruby</span>
+        <span class="c1"># https://github.com/ruby/setup-ruby/releases/tag/v1.207.0</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">ruby-version</span><span class="pi">:</span> <span class="s1">'</span><span class="s">3.1'</span> <span class="c1"># Not needed with a .ruby-version file</span>
+          <span class="na">bundler-cache</span><span class="pi">:</span> <span class="kc">true</span> <span class="c1"># runs 'bundle install' and caches installed gems automatically</span>
+          <span class="na">cache-version</span><span class="pi">:</span> <span class="m">0</span> <span class="c1"># Increment this number if you need to re-download cached gems</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Setup Pages</span>
+        <span class="na">id</span><span class="pi">:</span> <span class="s">pages</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/configure-pages@v5</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Build with Jekyll</span>
+        <span class="c1"># Outputs to the './_site' directory by default</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="s">bundle exec jekyll build --baseurl "$"</span>
+        <span class="na">env</span><span class="pi">:</span>
+          <span class="na">JEKYLL_ENV</span><span class="pi">:</span> <span class="s">production</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Upload artifact</span>
+        <span class="c1"># Automatically uploads an artifact from the './_site' directory by default</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/upload-pages-artifact@v3</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
-</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="91e9f8c7-6f82-42ce-8b36-0c18a0784f53" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="91e9f8c7-6f82-42ce-8b36-0c18a0784f53" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="7b3b8d69-c69c-4fab-bf4b-f17da5922711" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="7b3b8d69-c69c-4fab-bf4b-f17da5922711" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
-</code></pre></div></div> </li> <li> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="eb401317-5c4d-4d52-82e5-3d572edb8bb5" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="eb401317-5c4d-4d52-82e5-3d572edb8bb5" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://dunlopwill.github.io/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://dunlopwill.github.io/blog/2024/typograms</id><content type="html" xml:base="https://dunlopwill.github.io/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">+----+
-|    |---&gt; My first diagram!
-+----+</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-typograms">+----+
-|    |---&gt; My first diagram!
-+----+
-</code></pre> <p>Another example:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>which generates:</p> <pre><code class="language-typograms">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.
-</code></pre> <p>For more examples, check out the <a href="https://google.github.io/typograms/#examples">typograms documentation</a>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="diagrams"/><summary type="html"><![CDATA[this is what included typograms code could look like]]></summary></entry><entry><title type="html">a post that can be cited</title><link href="https://dunlopwill.github.io/blog/2024/post-citation/" rel="alternate" type="text/html" title="a post that can be cited"/><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://dunlopwill.github.io/blog/2024/post-citation</id><content type="html" xml:base="https://dunlopwill.github.io/blog/2024/post-citation/"><![CDATA[<p>This is an example post that can be cited. The content of the post ends here, while the citation information is automatically provided below. The only thing needed is for you to set the <code class="language-plaintext highlighter-rouge">citation</code> key in the front matter to <code class="language-plaintext highlighter-rouge">true</code>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="citation"/><summary type="html"><![CDATA[this is what a post that can be cited looks like]]></summary></entry><entry><title type="html">a post with pseudo code</title><link href="https://dunlopwill.github.io/blog/2024/pseudocode/" rel="alternate" type="text/html" title="a post with pseudo code"/><published>2024-04-15T00:01:00+00:00</published><updated>2024-04-15T00:01:00+00:00</updated><id>https://dunlopwill.github.io/blog/2024/pseudocode</id><content type="html" xml:base="https://dunlopwill.github.io/blog/2024/pseudocode/"><![CDATA[<p>This is an example post with some pseudo code rendered by <a href="https://github.com/SaswatPadhi/pseudocode.js">pseudocode</a>. The example presented here is the same as the one in the <a href="https://saswat.padhi.me/pseudocode.js/">pseudocode.js</a> documentation, with only one simple but important change: everytime you would use <code class="language-plaintext highlighter-rouge">$</code>, you should use <code class="language-plaintext highlighter-rouge">$$</code> instead. Also, note that the <code class="language-plaintext highlighter-rouge">pseudocode</code> key in the front matter is set to <code class="language-plaintext highlighter-rouge">true</code> to enable the rendering of pseudo code. As an example, using this code:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">pseudocode
-</span><span class="sb">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Generates:</p> <pre><code class="language-pseudocode">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included pseudo code could look like]]></summary></entry><entry><title type="html">a post with code diff</title><link href="https://dunlopwill.github.io/blog/2024/code-diff/" rel="alternate" type="text/html" title="a post with code diff"/><published>2024-01-27T19:22:00+00:00</published><updated>2024-01-27T19:22:00+00:00</updated><id>https://dunlopwill.github.io/blog/2024/code-diff</id><content type="html" xml:base="https://dunlopwill.github.io/blog/2024/code-diff/"><![CDATA[<p>You can display diff code by using the regular markdown syntax:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff
-</span><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")
-</span></code></pre></div></div> <p>But this is difficult to read, specially if you have a large diff. You can use <a href="https://diff2html.xyz/">diff2html</a> to display a more readable version of the diff. For this, just use <code class="language-plaintext highlighter-rouge">diff2html</code> instead of <code class="language-plaintext highlighter-rouge">diff</code> for the code block language:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff2html
-</span><span class="sb">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
---- a/sample.js
-+++ b/sample.js
-@@ -1 +1 @@
--console.log("Hello World!")
-+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>If we use a longer example, for example <a href="https://github.com/rtfpessoa/diff2html/commit/c2c253d3e3f8b8b267f551e659f72b44ca2ac927">this commit from diff2html</a>, it will generate the following output:</p> <pre><code class="language-diff2html">From 2aaae31cc2a37bfff83430c2c914b140bee59b6a Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sun, 9 Oct 2016 16:41:54 +0100
-Subject: [PATCH 1/2] Initial template override support
-
----
- scripts/hulk.js                    |  4 ++--
- src/diff2html.js                   |  3 +--
- src/file-list-printer.js           | 11 ++++++++---
- src/hoganjs-utils.js               | 29 +++++++++++++++++------------
- src/html-printer.js                |  6 ++++++
- src/line-by-line-printer.js        |  6 +++++-
- src/side-by-side-printer.js        |  6 +++++-
- test/file-list-printer-tests.js    |  2 +-
- test/hogan-cache-tests.js          | 18 +++++++++++++++---
- test/line-by-line-tests.js         |  3 +--
- test/side-by-side-printer-tests.js |  3 +--
- 11 files changed, 62 insertions(+), 29 deletions(-)
-
-diff --git a/scripts/hulk.js b/scripts/hulk.js
-index 5a793c18..a4b1a4d5 100755
---- a/scripts/hulk.js
-+++ b/scripts/hulk.js
-@@ -173,11 +173,11 @@ function namespace(name) {
- // write a template foreach file that matches template extension
- templates = extractFiles(options.argv.remain)
-   .map(function(file) {
--    var openedFile = fs.readFileSync(file, 'utf-8');
-+    var openedFile = fs.readFileSync(file, 'utf-8').trim();
-     var name;
-     if (!openedFile) return;
-     name = namespace(path.basename(file).replace(/\..*$/, ''));
--    openedFile = removeByteOrderMark(openedFile.trim());
-+    openedFile = removeByteOrderMark(openedFile);
-     openedFile = wrap(file, name, openedFile);
-     if (!options.outputdir) return openedFile;
-     fs.writeFileSync(path.join(options.outputdir, name + '.js')
-diff --git a/src/diff2html.js b/src/diff2html.js
-index 21b0119e..64e138f5 100644
---- a/src/diff2html.js
-+++ b/src/diff2html.js
-@@ -7,7 +7,6 @@
-
- (function() {
-   var diffParser = require('./diff-parser.js').DiffParser;
--  var fileLister = require('./file-list-printer.js').FileListPrinter;
-   var htmlPrinter = require('./html-printer.js').HtmlPrinter;
-
-   function Diff2Html() {
-@@ -43,7 +42,7 @@
-
-     var fileList = '';
-     if (configOrEmpty.showFiles === true) {
--      fileList = fileLister.generateFileList(diffJson, configOrEmpty);
-+      fileList = htmlPrinter.generateFileListSummary(diffJson, configOrEmpty);
-     }
-
-     var diffOutput = '';
-diff --git a/src/file-list-printer.js b/src/file-list-printer.js
-index e408d9b2..1e0a2c61 100644
---- a/src/file-list-printer.js
-+++ b/src/file-list-printer.js
-@@ -8,11 +8,16 @@
- (function() {
-   var printerUtils = require('./printer-utils.js').PrinterUtils;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var baseTemplatesPath = 'file-summary';
-   var iconsBaseTemplatesPath = 'icon';
-
--  function FileListPrinter() {
-+  function FileListPrinter(config) {
-+    this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   FileListPrinter.prototype.generateFileList = function(diffFiles) {
-@@ -38,5 +43,5 @@
-     });
-   };
-
--  module.exports.FileListPrinter = new FileListPrinter();
-+  module.exports.FileListPrinter = FileListPrinter;
- })();
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 9949e5fa..0dda08d7 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -8,18 +8,19 @@
- (function() {
-   var fs = require('fs');
-   var path = require('path');
--
-   var hogan = require('hogan.js');
-
-   var hoganTemplates = require('./templates/diff2html-templates.js');
-
--  var templatesPath = path.resolve(__dirname, 'templates');
-+  var extraTemplates;
-
--  function HoganJsUtils() {
-+  function HoganJsUtils(configuration) {
-+    this.config = configuration || {};
-+    extraTemplates = this.config.templates || {};
-   }
-
--  HoganJsUtils.prototype.render = function(namespace, view, params, configuration) {
--    var template = this.template(namespace, view, configuration);
-+  HoganJsUtils.prototype.render = function(namespace, view, params) {
-+    var template = this.template(namespace, view);
-     if (template) {
-       return template.render(params);
-     }
-@@ -27,17 +28,16 @@
-     return null;
-   };
-
--  HoganJsUtils.prototype.template = function(namespace, view, configuration) {
--    var config = configuration || {};
-+  HoganJsUtils.prototype.template = function(namespace, view) {
-     var templateKey = this._templateKey(namespace, view);
-
--    return this._getTemplate(templateKey, config);
-+    return this._getTemplate(templateKey);
-   };
-
--  HoganJsUtils.prototype._getTemplate = function(templateKey, config) {
-+  HoganJsUtils.prototype._getTemplate = function(templateKey) {
-     var template;
-
--    if (!config.noCache) {
-+    if (!this.config.noCache) {
-       template = this._readFromCache(templateKey);
-     }
-
-@@ -53,6 +53,7 @@
-
-     try {
-       if (fs.readFileSync) {
-+        var templatesPath = path.resolve(__dirname, 'templates');
-         var templatePath = path.join(templatesPath, templateKey);
-         var templateContent = fs.readFileSync(templatePath + '.mustache', 'utf8');
-         template = hogan.compile(templateContent);
-@@ -66,12 +67,16 @@
-   };
-
-   HoganJsUtils.prototype._readFromCache = function(templateKey) {
--    return hoganTemplates[templateKey];
-+    return extraTemplates[templateKey] || hoganTemplates[templateKey];
-   };
-
-   HoganJsUtils.prototype._templateKey = function(namespace, view) {
-     return namespace + '-' + view;
-   };
-
--  module.exports.HoganJsUtils = new HoganJsUtils();
-+  HoganJsUtils.prototype.compile = function(templateStr) {
-+    return hogan.compile(templateStr);
-+  };
-+
-+  module.exports.HoganJsUtils = HoganJsUtils;
- })();
-diff --git a/src/html-printer.js b/src/html-printer.js
-index 585d5b66..13f83047 100644
---- a/src/html-printer.js
-+++ b/src/html-printer.js
-@@ -8,6 +8,7 @@
- (function() {
-   var LineByLinePrinter = require('./line-by-line-printer.js').LineByLinePrinter;
-   var SideBySidePrinter = require('./side-by-side-printer.js').SideBySidePrinter;
-+  var FileListPrinter = require('./file-list-printer.js').FileListPrinter;
-
-   function HtmlPrinter() {
-   }
-@@ -22,5 +23,10 @@
-     return sideBySidePrinter.generateSideBySideJsonHtml(diffFiles);
-   };
-
-+  HtmlPrinter.prototype.generateFileListSummary = function(diffJson, config) {
-+    var fileListPrinter = new FileListPrinter(config);
-+    return fileListPrinter.generateFileList(diffJson);
-+  };
-+
-   module.exports.HtmlPrinter = new HtmlPrinter();
- })();
-diff --git a/src/line-by-line-printer.js b/src/line-by-line-printer.js
-index b07eb53c..d230bedd 100644
---- a/src/line-by-line-printer.js
-+++ b/src/line-by-line-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'line-by-line';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -19,6 +20,9 @@
-
-   function LineByLinePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   LineByLinePrinter.prototype.makeFileDiffHtml = function(file, diffs) {
-diff --git a/src/side-by-side-printer.js b/src/side-by-side-printer.js
-index bbf1dc8d..5e3033b3 100644
---- a/src/side-by-side-printer.js
-+++ b/src/side-by-side-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'side-by-side';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -26,6 +27,9 @@
-
-   function SideBySidePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   SideBySidePrinter.prototype.makeDiffHtml = function(file, diffs) {
-diff --git a/test/file-list-printer-tests.js b/test/file-list-printer-tests.js
-index a502a46f..60ea3208 100644
---- a/test/file-list-printer-tests.js
-+++ b/test/file-list-printer-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var fileListPrinter = require('../src/file-list-printer.js').FileListPrinter;
-+var fileListPrinter = new (require('../src/file-list-printer.js').FileListPrinter)();
-
- describe('FileListPrinter', function() {
-   describe('generateFileList', function() {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 190bf6f8..3bb754ac 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var HoganJsUtils = require('../src/hoganjs-utils.js').HoganJsUtils;
-+var HoganJsUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)();
- var diffParser = require('../src/diff-parser.js').DiffParser;
-
- describe('HoganJsUtils', function() {
-@@ -21,16 +21,28 @@ describe('HoganJsUtils', function() {
-       });
-       assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should render view without cache', function() {
-       var result = HoganJsUtils.render('generic', 'empty-diff', {
-         contentClass: 'd2h-code-line',
-         diffParser: diffParser
-       }, {noCache: true});
--      assert.equal(emptyDiffHtml + '\n', result);
-+      assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should return null if template is missing', function() {
--      var result = HoganJsUtils.render('generic', 'missing-template', {}, {noCache: true});
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)({noCache: true});
-+      var result = hoganUtils.render('generic', 'missing-template', {});
-       assert.equal(null, result);
-     });
-+
-+    it('should allow templates to be overridden', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+
-+      var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-diff --git a/test/line-by-line-tests.js b/test/line-by-line-tests.js
-index 1cd92073..8869b3df 100644
---- a/test/line-by-line-tests.js
-+++ b/test/line-by-line-tests.js
-@@ -14,7 +14,7 @@ describe('LineByLinePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expected, fileHtml);
-     });
-@@ -422,7 +422,6 @@ describe('LineByLinePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                &lt;/tbody&gt;\n' +
-         '            &lt;/table&gt;\n' +
-         '        &lt;/div&gt;\n' +
-diff --git a/test/side-by-side-printer-tests.js b/test/side-by-side-printer-tests.js
-index 76625f8e..771daaa5 100644
---- a/test/side-by-side-printer-tests.js
-+++ b/test/side-by-side-printer-tests.js
-@@ -14,7 +14,7 @@ describe('SideBySidePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expectedRight, fileHtml.right);
-       assert.equal(expectedLeft, fileHtml.left);
-@@ -324,7 +324,6 @@ describe('SideBySidePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                    &lt;/tbody&gt;\n' +
-         '                &lt;/table&gt;\n' +
-         '            &lt;/div&gt;\n' +
-
-From f3cadb96677d0eb82fc2752dc3ffbf35ca9b5bdb Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sat, 15 Oct 2016 13:21:22 +0100
-Subject: [PATCH 2/2] Allow uncompiled templates
-
----
- README.md                 |  3 +++
- src/hoganjs-utils.js      |  7 +++++++
- test/hogan-cache-tests.js | 24 +++++++++++++++++++++++-
- 3 files changed, 33 insertions(+), 1 deletion(-)
-
-diff --git a/README.md b/README.md
-index 132c8a28..46909f25 100644
---- a/README.md
-+++ b/README.md
-@@ -98,6 +98,9 @@ The HTML output accepts a Javascript object with configuration. Possible options
-   - `synchronisedScroll`: scroll both panes in side-by-side mode: `true` or `false`, default is `false`
-   - `matchWordsThreshold`: similarity threshold for word matching, default is 0.25
-   - `matchingMaxComparisons`: perform at most this much comparisons for line matching a block of changes, default is `2500`
-+  - `templates`: object with previously compiled templates to replace parts of the html
-+  - `rawTemplates`: object with raw not compiled templates to replace parts of the html
-+  &gt; For more information regarding the possible templates look into [src/templates](https://github.com/rtfpessoa/diff2html/tree/master/src/templates)
-
- ## Diff2HtmlUI Helper
-
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 0dda08d7..b2e9c275 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -17,6 +17,13 @@
-   function HoganJsUtils(configuration) {
-     this.config = configuration || {};
-     extraTemplates = this.config.templates || {};
-+
-+    var rawTemplates = this.config.rawTemplates || {};
-+    for (var templateName in rawTemplates) {
-+      if (rawTemplates.hasOwnProperty(templateName)) {
-+        if (!extraTemplates[templateName]) extraTemplates[templateName] = this.compile(rawTemplates[templateName]);
-+      }
-+    }
-   }
-
-   HoganJsUtils.prototype.render = function(namespace, view, params) {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 3bb754ac..a34839c0 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -36,7 +36,7 @@ describe('HoganJsUtils', function() {
-       assert.equal(null, result);
-     });
-
--    it('should allow templates to be overridden', function() {
-+    it('should allow templates to be overridden with compiled templates', function() {
-       var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-
-       var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-@@ -44,5 +44,27 @@ describe('HoganJsUtils', function() {
-       var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-       assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-     });
-+
-+    it('should allow templates to be overridden with uncompiled templates', function() {
-+      var emptyDiffTemplate = '&lt;p&gt;&lt;/p&gt;';
-+
-+      var config = {rawTemplates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-+
-+    it('should allow templates to be overridden giving priority to compiled templates', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+      var emptyDiffTemplateUncompiled = '&lt;p&gt;Not used!&lt;/p&gt;';
-+
-+      var config = {
-+        templates: {'generic-empty-diff': emptyDiffTemplate},
-+        rawTemplates: {'generic-empty-diff': emptyDiffTemplateUncompiled}
-+      };
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is how you can display code diffs]]></summary></entry><entry><title type="html">a post with advanced image components</title><link href="https://dunlopwill.github.io/blog/2024/advanced-images/" rel="alternate" type="text/html" title="a post with advanced image components"/><published>2024-01-27T11:46:00+00:00</published><updated>2024-01-27T11:46:00+00:00</updated><id>https://dunlopwill.github.io/blog/2024/advanced-images</id><content type="html" xml:base="https://dunlopwill.github.io/blog/2024/advanced-images/"><![CDATA[<p>This is an example post with advanced image components.</p> <h2 id="image-slider">Image Slider</h2> <p>This is a simple image slider. It uses the <a href="https://swiperjs.com/">Swiper</a> library. Check the <a href="https://swiperjs.com/demos">examples page</a> for more information of what you can achieve with it.</p> <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true"> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/9-480.webp 480w,/assets/img/9-800.webp 800w,/assets/img/9-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/9.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/7-480.webp 480w,/assets/img/7-800.webp 800w,/assets/img/7-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/7.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/8-480.webp 480w,/assets/img/8-800.webp 800w,/assets/img/8-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/8.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/10-480.webp 480w,/assets/img/10-800.webp 800w,/assets/img/10-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/10.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/12-480.webp 480w,/assets/img/12-800.webp 800w,/assets/img/12-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/12.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> </swiper-container> <h2 id="image-comparison-slider">Image Comparison Slider</h2> <p>This is a simple image comparison slider. It uses the <a href="https://img-comparison-slider.sneas.io/">img-comparison-slider</a> library. Check the <a href="https://img-comparison-slider.sneas.io/examples.html">examples page</a> for more information of what you can achieve with it.</p> <img-comparison-slider> <figure slot="first"> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic-480.webp 480w,/assets/img/prof_pic-800.webp 800w,/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> <figure slot="second"> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic_color-480.webp 480w,/assets/img/prof_pic_color-800.webp 800w,/assets/img/prof_pic_color-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/prof_pic_color.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </img-comparison-slider>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[this is what advanced image components could look like]]></summary></entry><entry><title type="html">a post with vega lite</title><link href="https://dunlopwill.github.io/blog/2024/vega-lite/" rel="alternate" type="text/html" title="a post with vega lite"/><published>2024-01-27T00:20:00+00:00</published><updated>2024-01-27T00:20:00+00:00</updated><id>https://dunlopwill.github.io/blog/2024/vega-lite</id><content type="html" xml:base="https://dunlopwill.github.io/blog/2024/vega-lite/"><![CDATA[<p>This is an example post with some <a href="https://vega.github.io/vega-lite/">vega lite</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">vega_lite
-</span><span class="sb">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-vega_lite">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}
-</code></pre> <p>This plot supports both light and dark themes.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included vega lite code could look like]]></summary></entry></feed>
+  <span class="c1"># Deployment job</span>
+  <span class="na">deploy</span><span class="pi">:</span>
+    <span class="na">environment</span><span class="pi">:</span>
+      <span class="na">name</span><span class="pi">:</span> <span class="s">github-pages</span>
+      <span class="na">url</span><span class="pi">:</span> <span class="s">$</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+    <span class="na">needs</span><span class="pi">:</span> <span class="s">build</span>
+    <span class="na">steps</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Deploy to GitHub Pages</span>
+        <span class="na">id</span><span class="pi">:</span> <span class="s">deployment</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/deploy-pages@v4</span>
+</code></pre></div></div> <h3 id="deploy">Deploy</h3> <p>Click on “Actions” (at the top)</p> <p>Did you get a green circle/tick? That means success: Go to https://username.github.io/ to see your site in action!</p> <p>Did you get a red circle/tick? That means deployment failed. Don’t worry, it happened to me too. Read the error(s) and adjust accordingly.</p> <p>On the first run, I got the following error message:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>...
+ ERROR:  Error installing bundler:
+  	bundler-2.7.1 requires Ruby version <span class="o">&gt;=</span> 3.2.0. The current ruby version is 3.1.6.
+...
+</code></pre></div></div> <p>and had to make the following adjustment to the workflow file:</p> <div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code>...
+<span class="err">
+</span>        with:
+<span class="gd">-          ruby-version: '3.1' # Not needed with a .ruby-version file
+</span><span class="gi">+          ruby-version: '3.2' # Not needed with a .ruby-version file
+</span>...
+</code></pre></div></div> <h3 id="update">Update</h3> <p>Every time you make a commit on the main branch, the action will run the workflow again deploying the site.</p> <p>So, you can just focus on adding posts to the <code class="language-plaintext highlighter-rouge">_posts</code> directory with markdown files using the following file naming convention <code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY.title.MARKUP</code> (e.g, <code class="language-plaintext highlighter-rouge">2025-08-05-my-post.md</code>).</p> <p>Edit the <code class="language-plaintext highlighter-rouge">_config.yml</code> file with the information you want to see.</p> <h2 id="thank-you">Thank you</h2> <p>Thanks for reading!</p>]]></content><author><name></name></author><category term="jekyll"/><category term="markdown"/><category term="blog"/><category term="tech"/><summary type="html"><![CDATA[Welcome to my first blog post!]]></summary></entry><entry><title type="html">Reflections from our Scale-up Business Intern Will Dunlop - Engine Shed</title><link href="https://dunlopwill.github.io/blog/2018/reflections-from-our-scale-up-business-intern-will-dunlop-engine-shed/" rel="alternate" type="text/html" title="Reflections from our Scale-up Business Intern Will Dunlop - Engine Shed"/><published>2018-03-09T00:00:00+00:00</published><updated>2018-03-09T00:00:00+00:00</updated><id>https://dunlopwill.github.io/blog/2018/reflections-from-our-scale-up-business-intern-will-dunlop---engine-shed</id><content type="html" xml:base="https://dunlopwill.github.io/blog/2018/reflections-from-our-scale-up-business-intern-will-dunlop-engine-shed/"><![CDATA[<p>Get directionsEngine Shed, Station Approach, Temple Meads, Bristol, BS1 6QH Author: Tamsin Denbigh Published: 9th March 2018 My name is Will Dunlop and I am a post-graduate University of Bristol student, soon to complete my MSc in Economics, Finance and Management. I began my Scale Up Business Internship in December, 2017.  I have been really lucky to have had the opportunity to be involved in the Scale-up Ecosystem Project run by the Engine Shed, under the supervision of the Scale-up Enabler Briony Phillips.Will Dunlop, Scale-up InternThe purpose of the internship has been to investigate data about the assets (programmes, services, initiatives, organisations) that exist to support scale-up businesses, and then to investigate the scale-up businesses themselves, and the deal-flow in the West of England.Over the last three months, I have been responsible for data -collection, -preparation, -verification and -visualisation. I’ve also had several opportunities to expand my role and responsibilities, including shadowing meetings, to techier things such as entering JSON files for publication in an online system (the Scale-up Ecosystem Map), and now a chance to write for their online blog too!We have made significant progress, having identified over 700 scale-ups in the South West, as well as over 400 assets available to support these businesses. These assets have been categorised to support scale-ups with regards to Finance, Markets, Skills and Talent, Leadership and Infrastructure. I have also produced a number of visual displays to help both Start-ups and Scale-ups learn about the support that is available to them.I’ve really enjoyed my time here at the Engine Shed. Briony, as well as the rest of the Engine Shed and SETsquared teams, have been truly supportive throughout; offering advice, sharing their experiences and learning outcomes, as well as much more. In addition, I genuinely appreciate how my thoughts and input have been listened to and valued throughout my time here; helping to shape the way we have engaged with the scale-up data.Since starting the internship, my knowledge of the business ecosystem in the South West has vastly improved. I’ve developed a good understanding of the challenges faced by businesses that are scaling up (and how to combat them); researching and hearing first-hand information from some of the owners and directors themselves. Furthermore, I’ve learnt of the huge range of opportunities available to scale-ups in the South West (many are also relevant to start-ups and SMEs).I must admit that I have left the Scale-up Ecosystem map with some potential improvements to be made. The assets available to Scale-ups could be sub-categorized beyond our initial five filters (Finance, Infrastructure, Skills &amp; Talent, Markets, and Leadership) to be more industry specific. So that tech scale ups can easily find tech specific skills and talent support, for instance.The data itself could be analysed further to gain an understanding of specific information regarding the demographics and trends of the assets available in the South West. It might also be interesting to incorporate additional assets that are available to start-ups and SMEs into the Ecosystem Map, which have not been covered by investigating scale-ups. Perhaps, however, that would be another project entirely.This internship has been one of my most valuable working and learning experiences to date. With the end of my studies in sight, the Scale-up Business Internship has given me an awesome platform to launch my career from. For these reasons and beyond I absolutely adore the Engine Shed and will be forever grateful for the wonderful opportunity Briony and the rest of the team bestowed upon me. They are doing excellent work, which has great importance to the region as a whole. Moreover they have an incredibly talented team to achieve their projects with.William Dunlop, Scale-up Business Intern, University of BristolWill’s work is already available in the Scale-up Ecosystem Map and will be central to our next development – a map of scale-up businesses.This blog series tells the story of the Scale-up Enabler, Briony Phillips. Briony joined the Engine Shed team on a 1 year contract in June 2017 funded by Business West, Engine Shed, The University of Bristol and the West of England Growth Hub. This group have a shared ambition – first, to identify scale-up businesses in the West of England region and to better understand their challenges and second, to design, facilitate and support initiatives that will make it easier for businesses to scale-up more effectively – in the long term.Links and information are correct as of February 2018.Briony – Scale-up Enabler briony.phillips@engine-shed.co.uk @BrionyPhi1 Tags: Business Intern, scale up, Geovation and Engine Shed are partnering to host a lunchtime learn event on Tuesday 10 June on ‘Delivering value with location data’….Engine Shed is thrilled to officially welcome our new resident AND Digital to our community! AND Digital is a digital consultancy which…Get directionsEngine Shed, Station Approach, Temple Meads, Bristol, BS1 6QHWebsite built by Storm Privacy Policy and cookies, Terms and Conditions, Modern Slavery Statement, Code of Conduct</p>]]></content><author><name></name></author><summary type="html"><![CDATA[My name is Will Dunlop and I am a post-graduate University of Bristol student, soon to complete my MSc in Economics, Finance and Management. I began my Scale Up Business Internship in December, 2017.  I have been really lucky to have had the opportunity to be involved in the Scale-up Ecosystem Project run by the […]]]></summary></entry></feed>
