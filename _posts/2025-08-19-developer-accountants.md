@@ -19,7 +19,7 @@ featured: true
 - [Formulas are functions](#formulas-are-functions)
 - [Problem solving](#problem-solving)
 - [Summary](#summary)
-- [Getting started with Python in Excel](#getting-started-with-python-in-excel)
+- [BONUS: Getting started with Python in Excel](#bonus:-getting-started-with-python-in-excel)
 
 ## Accountants are *de facto* developers
 
@@ -33,7 +33,11 @@ The *de jure* job title might suggest otherwise but when the daily activities of
 
 "[*...Excel is the world's most widely used functional programming language.*](https://www.microsoft.com/en-us/research/podcast/advancing-excel-as-a-programming-language-with-andy-gordon-and-simon-peyton-jones/)" - [Simon Peyton Jones](https://simon.peytonjones.org/)
 
-<iframe width="420" height="315" src="https://youtube.com/shorts/YPSGL2MsES4?feature=shared" frameborder="0" allowfullscreen></iframe>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://youtube.com/shorts/YPSGL2MsES4?feature=shared" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 "[*...This pisses a lot of developers off because it turns out that people in the accounts department have been doing FP [Functional Programming] for longer than they have.*](https://youtube.com/shorts/YPSGL2MsES4?feature=shared)" - [Kevlin Henney](https://x.com/kevlinhenney?lang=en)
 
@@ -178,7 +182,7 @@ Accountants use Excel to solve problems.
 
 Therefore accountants are developers.
 
-## Getting started with Python in Excel
+## BONUS: Getting started with Python in Excel
 
 Perhaps you are an accountant and, recognizing that you are also a developer, you want to expand the programming languages that you already know.
 
