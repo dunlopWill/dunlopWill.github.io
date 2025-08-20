@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Starting a blog with Jekyll
+title:  starting a blog with jekyll
 date:   2025-08-05 23:08:00 +0100
 categories:
   - jekyll

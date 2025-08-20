@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Developer accountants
+title: developer accountants
 date: 2025-08-19 20:57:33 +0100
 categories:
   - tech
@@ -9,6 +9,7 @@ categories:
   - excel
   - python
   - programming
+featured: true
 ---
 
 ## Contents
