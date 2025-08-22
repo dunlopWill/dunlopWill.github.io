@@ -2,7 +2,7 @@
 layout: page
 title: dev
 permalink: /dev/
-description: A growing collection of your cool projects.
+description: A small glimpse of what I've done.
 nav: true
 nav_order: 4
 display_categories: [web, cli, packages]

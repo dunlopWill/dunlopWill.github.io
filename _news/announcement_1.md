@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'm now a parent!
+now a parent
