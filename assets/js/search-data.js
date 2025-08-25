@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "nav-repos",
           title: "repos",
           description: "Explore selected repositories.",
@@ -114,6 +121,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-excel-add-in",
+          title: 'Excel Add-in',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/xl_add_in/";
             },},{id: "teaching-python-for-accountants",
           title: 'Python for Accountants',
           description: "",
@@ -144,13 +156,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-ukc',
-        title: 'Ukc',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.ukclimbing.com/user/profile.php?id=246403", "_blank");
         },
       },{
       id: 'light-theme',
