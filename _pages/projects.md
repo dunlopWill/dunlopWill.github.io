@@ -1,10 +1,10 @@
 ---
 layout: page
-title: dev
-permalink: /dev/
+title: projects
+permalink: /projects/
 description: A small glimpse of what I've done.
-nav: true
-nav_order: 4
+nav: false
+nav_order: 3
 display_categories: [web, cli, packages]
 horizontal: false
 ---
