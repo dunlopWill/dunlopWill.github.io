@@ -16,19 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+        },{id: "nav-repos",
+          title: "repos",
+          description: "Explore selected repositories.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "nav-dev",
-          title: "dev",
-          description: "A small glimpse of what I&#39;ve done.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/dev/";
+            window.location.href = "/repos/";
           },
         },{id: "post-developer-accountants",
         
