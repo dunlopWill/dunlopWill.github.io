@@ -24,187 +24,323 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Grant Thornton UK LLP",
+      "position": "Full-Breadth Developer (Digital Audit Manager)",
+      "url": "https://www.grantthornton.co.uk/services/audit-and-assurance/",
+      "startDate": "2022-10-01",
+      "summary": "Designed and developed various automation and analytics tools for the audit and assurance practice.",
       "highlights": [
-        "Relativity"
+        "Automated the generation of the public facing external auditor reports that are submitted to Companies House. The software has been internally valued to generate >£0.5m of savings and was voted as the practice's favourite internally developed tool.",
+        "Pioneered a Global Audit Common Data Model for Grant Thornton International; Grant Thornton's international network of firms, including Grant Thornton US.",
+        "Developed and designed over 10 digital audit tools, ranging from automations to data analtics.",
+        "Researched and prototyped agentic AI solutions for audit.",
+        "Successfully integrated open-banking technology for audit engagements, generating savings of ~£0.7 per annum."
+      ]
+    },
+    {
+      "name": "Grant Thornton UK LLP",
+      "position": "Commercial Auditor (Audit Assistant Manager)",
+      "url": "https://www.grantthornton.co.uk/services/audit-and-assurance/",
+      "startDate": "2022-08-01",
+      "endDate": "2022-09-01",
+      "summary": "Conducted financial statement audits for mid-market commercial entities and groups.",
+      "highlights": [
+        "Qualified as an ICAEW ACA Chartered Accountant and obtained the ICAEW Audit Qualification (AQ).",
+        "Worked directly with client senior finance personnel and led Audit Associates to ensure that financial statements were in line with financial reporting standards, including UK GAAP FRS 102 and IFRS.",
+        "Developed Excel wizardry and proficiency in programming languages, such as Python and VBA, resulting in automated workpapers and a programme to extract and match core invoice data to samples."
+      ]
+    },
+    {
+      "name": "Business West",
+      "position": "Project Coordinator",
+      "url": "https://www.businesswest.co.uk/",
+      "startDate": "2018-06-01",
+      "endDate": "2019-07-01",
+      "summary": "Coordinated the European REgional Development Fund (ERDF) funded Innovate2Succeed programme, assisting businesses to develop new products.",
+      "highlights": [
+        "Trained, and accredited, in the use of GROWTHmapper (Oxford Innovation)",
+        "Developed proficiency in administrating Microsoft Dynamics and SalesForce.",
+        "Identified and made significant improvements via automations, resulting in the time taken to complete an administrative task reducing from 2 weeks to less than 1 hour."
+      ]
+    },
+    {
+      "name": "Impact Mentoring",
+      "position": "Accounts Receivable & Data Protection Officer",
+      "url": "https://impactmentoring.co.uk/",
+      "startDate": "2018-03-01",
+      "endDate": "2018-06-01",
+      "summary": "Assistedin a wide range of functions across finance and operations helping to faciliate the scaling up of a successful start up in the NatWest Entrepreneur Hub.",
+      "highlights": [
+        "Project managed the implementation of the General Data Protection Regulation (GDPR); took responsibility as Data Protection Officer (DPO), improved cyber security, ensured that stystems and practices were GDPR compliant."
+      ]
+    },
+    {
+      "name": "Hargreaves Lansdown",
+      "position": "Trade Support & Back Office Administrator",
+      "url": "https://www.hl.co.uk/",
+      "startDate": "2018-02-01",
+      "endDate": "2018-04-01",
+      "summary": "Supported clients' Stocks & Shares ISAs and SIPPs over the beginning and end of the tax year.",
+      "highlights": [
+        "Infomred in the rules and regulations pertaining to financial firms, including CASS.",
+        "Documented a business process flowchart diagram."
+      ]
+    },
+    {
+      "name": "Engine Shed",
+      "position": "Scale-up Business Intern",
+      "url": "https://engine-shed.co.uk/",
+      "startDate": "2017-12-01",
+      "endDate": "2018-02-01",
+      "summary": "Supported Engine Shed, Business West, The University of Bristol and the West of England Combined Authority (WECA)/Growth Hub to research and analyse the scale-up clusters and support, as well launch the Scale-up Generator Map web application to help entrepreneurs visualize and gain access to support.",
+      "highlights": [
+        "Data -collection, -preparation, -verification, -visualization",
+        "Formatted data into JSON for the web application"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": [
-        "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.",
-        "Men of the year 2014 by Time magazine"
-      ]
+      "organization": "NACOA ",
+      "location": "Bristol, United Kingdom",
+      "position": "Fundraising Volunteer",
+      "url": "https://nacoa.org.uk/",
+      "startDate": "2021-07-01",
+      "summary": "Sold programmes and performed hospitally work at UpFest to fundraise for NACOA.",
+      "highlights": []
+    },
+    {
+      "organization": "World Challenge",
+      "location": "Laos",
+      "position": "Labourer",
+      "url": "https://weareworldchallenge.com/uk/",
+      "startDate": "2011-07-01",
+      "endDate": "2011-08-01",
+      "summary": "Laid the groundwork to build a school in a remote village in Laos.",
+      "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
+      "institution": "University of Bristol",
+      "location": "Bristol, United Kingdom",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics-finance-and-management/",
+      "area": "Economics, Finance & Management",
+      "studyType": "MSc Economics, Finance & Management",
+      "startDate": "2016-09-01",
+      "endDate": "2018-03-01",
       "courses": [
-        "Theory of Relativity"
+        "Quantitative Methods",
+        "Project Management",
+        "Corporate Finance",
+        "Management",
+        "Economics",
+        "Growth, Trade & Structural Change",
+        "Finance & Accounting",
+        "E-Commerce",
+        "STATA"
       ]
-    }
-  ],
-  "awards": [
+    },
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "institution": "University of Bristol",
+      "location": "Bristol, United Kingdom",
+      "url": "https://www.bristol.ac.uk/",
+      "area": "Psychology & Philosophy (Joint Honours)",
+      "studyType": "BSc Psychology & Philosophy",
+      "startDate": "2013-09-01",
+      "endDate": "2016-06-01",
+      "score": "2:1",
+      "courses": [
+        "Formal Logic",
+        "Philosophy of Mind",
+        "Aesthetics",
+        "Qualitative & Quantitative Methods",
+        "Research Methods & Statistics",
+        "SPSS"
+      ]
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
+      "name": "Foundational C#",
+      "date": "2025-02-01",
+      "issuer": "Microsoft",
+      "url": "https://www.freecodecamp.org/certification/willdunlop/foundational-c-sharp-with-microsoft",
+      "icon": "fa-solid fa-location-tag"
+    },
+    {
+      "name": "Audit Qualification (AQ)",
+      "date": "2023-04-01",
+      "issuer": "ICAEW",
+      "icon": "fa-solid fa-location-tag"
+    },
+    {
+      "name": "Associate Chartered Accountant (AQ)",
+      "date": "2022-08-01",
+      "issuer": "ICAEW",
+      "icon": "fa-solid fa-location-tag"
+    },
+    {
+      "name": "Cybersecurity Essentials",
       "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "issuer": "CISCO",
+      "icon": "fa-solid fa-location-tag"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Accounting",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Excel",
+        "Audit",
+        "UK GAAP FRS 102",
+        "IFRS"
+      ]
+    },
+    {
+      "name": "Back-end Developer",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python",
+        "FastAPI",
+        "Pydantic",
+        "SQL",
+        "Azure"
+      ]
+    },
+    {
+      "name": "Front-end Developer",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "Html",
+        "CSS",
+        "Jekyll",
+        "React"
+      ]
+    },
+    {
+      "name": "Data Analytics",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Pandas",
+        "SPSS",
+        "STATA",
+        "Research methods",
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Agentic AI",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "LangChain",
+        "LangGraph",
+        "LLMs",
+        "FastMCP"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
-      "language": "English",
+      "language": "French",
+      "fluency": "Conversant",
+      "icon": ""
+    },
+    {
+      "language": "Python",
       "fluency": "Fluent",
+      "icon": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg"
+    },
+    {
+      "language": "Excel",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "TypeScript",
+      "fluency": "Proficient",
+      "icon": ""
+    },
+    {
+      "language": "VBA",
+      "fluency": "Familiar",
+      "icon": ""
+    },
+    {
+      "language": "C#",
+      "fluency": "Familiar",
+      "icon": ""
+    },
+    {
+      "language": "SQL",
+      "fluency": "Familiar",
+      "icon": ""
+    },
+    {
+      "language": "Bash",
+      "fluency": "Familiar",
+      "icon": ""
+    },
+    {
+      "language": "Nix",
+      "fluency": "Beginner",
+      "icon": ""
+    },
+    {
+      "language": "Rust",
+      "fluency": "Beginner",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Rock climbing",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Bouldering",
+        "Sport Climbing",
+        "Trad Climbing",
+        "Avon Mountaineering Club"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Linux",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "NixOS"
+      ]
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": [
-        "Quantum Teleportation",
-        "Quantum Cryptography"
-      ],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "ERDF Innovate2Succeed",
+      "summary": "At Business West, I supported the delivery of the European Regional Development Fund's (ERDF) Innovate2Succeed programme in conjunction with Innovate UK to assist businesses with innovation.",
+      "highlights": [],
+      "startDate": "2018-06-01",
+      "endDate": "2019-07-01"
+    },
+    {
+      "name": "Scale Up Ecosystem Project",
+      "summary": "Supported Engine Shed, Business West, The University of Bristol and the West of England Combined Authority (WECA)/Growth Hub to research and analyse the scale-up clusters and support, as well launch the Scale-up Generator Map web application to help entrepreneurs visualize and gain access to support.",
+      "highlights": [],
+      "startDate": "2017-12-01",
+      "endDate": "2018-02-01",
+      "url": "https://engine-shed.co.uk/news/scaleup-enabler-a-sustainable-innovation-in-cluster-building/"
+    },
+    {
+      "name": "Coffee, Wanting & Liking",
+      "summary": "Funded by Coca Cola®, at The University of Bristol, I performed the Experimental Psychology study to address the question 'does coffee taste better when one is caffeine deprived?'",
+      "highlights": [],
+      "startDate": "2016-02-01",
+      "endDate": "2016-05-01"
     }
   ]
 }
