@@ -31,7 +31,7 @@ I'm also a very keen rock climber that enjoys the disciplines of Sport, Boulderi
 
 Beyond that, I'm a very proud father of a wonderful and bright toddler.
 
-Welcome to my personal website. Here you can glimpse into my [dev](./dev)elopment projects that are in the public domain and read my [blog](./blog) posts.
+Welcome to my personal website. Here you can glimpse into my [repositories](./repos/) and [projects](./projects/) that are in the public domain and read my [blog](./blog) posts.
 
 To learn more about my skills and experience, please see my [CV](./cv).
 

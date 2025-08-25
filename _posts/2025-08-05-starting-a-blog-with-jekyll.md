@@ -58,7 +58,7 @@ Moreover, this is an opportunity to learn another set of technologies that make 
 
 ### Share
 
-I'm 30 now and like everyone, I've learnt some things. Maybe sharing what I've learned could help someone else one day.
+Like everyone, I've learnt some things. Maybe sharing what I've learned could help someone else one day.
 
 ## Who?
 
@@ -162,7 +162,7 @@ Ready to see what your new blog looks like? Run:
 bundle exec jekyll serve
 ```
 
-Then go to: http://localhost:4000
+Then go to: <http://localhost:4000>
 
 To stop serving, use `Ctrl`+`c`.
 
@@ -266,7 +266,7 @@ jobs:
 
 Click on "Actions" (at the top)
 
-Did you get a green circle/tick? That means success: Go to https://username.github.io/ to see your site in action!
+Did you get a green circle/tick? That means success: Go to <https://username.github.io/> to see your site in action!
 
 Did you get a red circle/tick? That means deployment failed. Don't worry, it happened to me too. Read the error(s) and adjust accordingly.
 
@@ -275,7 +275,7 @@ On the first run, I got the following error message:
 ```bash
 ...
  ERROR:  Error installing bundler:
-  	bundler-2.7.1 requires Ruby version >= 3.2.0. The current ruby version is 3.1.6.
+   bundler-2.7.1 requires Ruby version >= 3.2.0. The current ruby version is 3.1.6.
 ...
 ```
 

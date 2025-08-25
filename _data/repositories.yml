@@ -1,8 +1,8 @@
-github_users:
-  - dunlopWill
+# github_users:
+#  - dunlopWill
 
 repo_description_lines_max: 2
 
 github_repos:
-  - dunlopWill/bbshark
-
+  #  - dunlopWill/bbshark
+  - dunlopWill/pycountant
