@@ -48,11 +48,11 @@ rss_icon: true # comment this line to hide the RSS icon
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 # custom_social: # can be any name here other than the ones already defined above
-  # logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  # title: Custom Social
-  # url: https://www.alberteinstein.com/
-ukc:
-  logo: https://ukc2.com/ukc/logo.svg
-  title: UKC
-  url: https://www.ukclimbing.com/user/profile.php?id=246403
+# logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+# title: Custom Social
+# url: https://www.alberteinstein.com/
+# ukc:
+#   logo: https://ukc2.com/ukc/logo.svg
+#   title: UKC
+#   url: https://www.ukclimbing.com/user/profile.php?id=246403
 
