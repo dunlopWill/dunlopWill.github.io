@@ -3,8 +3,8 @@ layout: page
 permalink: /repos/
 title: repos
 description: Explore selected repositories.
-nav: true 
-nav_order: 4
+nav: false
+# nav_order: 4
 ---
 
 {% if site.data.repositories.github_users %}

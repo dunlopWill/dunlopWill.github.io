@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A small glimpse of what I've done.
+title: web
+permalink: /web/
+description: A small glimpse into my web developments.
 nav: false
 nav_order: 3
-display_categories: [web, cli, packages]
+display_categories: [ web ]
 horizontal: false
 ---
 
