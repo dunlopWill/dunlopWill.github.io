@@ -35,7 +35,7 @@ The *de jure* job title might suggest otherwise but when the daily activities of
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://youtube.com/shorts/YPSGL2MsES4?feature=shared" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="https://youtube.com/embed/0y7IFUYUTgg?si=COrC7kTiPjG7WhJ0&amp;start=2506" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
