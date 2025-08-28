@@ -26,4 +26,4 @@ The application enables users to reconcile numbers to a target value in Excel.
     </div>
 </div>
 
-See the associated [website]( \"Coming soon!\") for more details.
+See the associated [website](https://technbash.com) for more details.
