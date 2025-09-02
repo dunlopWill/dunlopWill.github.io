@@ -37,7 +37,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/repos/";
               },
-            },{id: "post-developer-accountants",
+            },{id: "post-a-cli-for-everyone",
+        
+          title: "a cli for everyone",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/a-cli-for-everyone/";
+          
+        },
+      },{id: "post-developer-accountants",
         
           title: "developer accountants",
         
