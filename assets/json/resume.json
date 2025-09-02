@@ -33,7 +33,7 @@
         "Automated the generation of the public facing external auditor reports that are submitted to Companies House. The software was voted as the practice's favourite internally developed tool.",
         "Pioneered a Global Audit Common Data Model for Grant Thornton International; Grant Thornton's international network of firms, including Grant Thornton US.",
         "Developed and designed over 10 digital audit tools, ranging from automations to data analytics.",
-        "Researched and prototyped agentic AI solutions for audit.",
+        "Prototyped and architected agentic AI solutions.",
         "Successfully integrated open-banking technology for audit engagements."
       ]
     },
@@ -240,6 +240,15 @@
         "LangGraph",
         "LLMs",
         "FastMCP"
+      ]
+    },
+    {
+      "name": "AI",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "OCR",
+        "NLP",
+        "spaCy"
       ]
     }
   ],
