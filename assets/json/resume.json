@@ -6,7 +6,7 @@
     "email": "",
     "phone": "",
     "url": "https://willdunlop.me",
-    "summary": "Full-Breadth Developer leveraging experience as a ICAEW Chartered Accountant to build specialized solutions for the finance industry, ranging from data analytics to automations and agentic AI.",
+    "summary": "Full-Breadth Developer leveraging experience as an ICAEW Chartered Accountant to build specialized solutions for the finance industry, ranging from data analytics to automations and agentic AI.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -31,7 +31,7 @@
       "summary": "Designed and developed various automation and analytics tools for the audit and assurance practice.",
       "highlights": [
         "Automated the generation of the public facing external auditor reports that are submitted to Companies House. The software was voted as the practice's favourite internally developed tool.",
-        "Pioneered a Global Audit Common Data Model for Grant Thornton International; Grant Thornton's international network of firms, including Grant Thornton US.",
+        "Pioneered a Global Audit Common Data Model for Grant Thornton International (GTIL); Grant Thornton's international network of firms, including Grant Thornton US.",
         "Developed and designed over 10 digital audit tools, ranging from automations to data analytics.",
         "Prototyped and architected agentic AI solutions.",
         "Successfully integrated open-banking technology for audit engagements."
@@ -41,7 +41,7 @@
       "name": "Grant Thornton UK LLP",
       "position": "Commercial Auditor (Audit Assistant Manager)",
       "url": "https://www.grantthornton.co.uk/services/audit-and-assurance/",
-      "startDate": "2022-08-01",
+      "startDate": "2019-08-01",
       "endDate": "2022-09-01",
       "summary": "Conducted financial statement audits for mid-market commercial entities and groups.",
       "highlights": [
@@ -325,6 +325,14 @@
       "icon": "fa-solid fa-tag",
       "keywords": [
         "NixOS"
+      ]
+    },
+    {
+      "name": "Open-source contributor",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "PyPi",
+        "crates.io"
       ]
     }
   ],
