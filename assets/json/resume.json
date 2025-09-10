@@ -33,7 +33,7 @@
         "Automated the generation of the public facing external auditor reports that are submitted to Companies House. The software was voted as the practice's favourite internally developed tool.",
         "Pioneered a Global Audit Common Data Model for Grant Thornton International (GTIL); Grant Thornton's international network of firms, including Grant Thornton US.",
         "Developed and designed over 10 digital audit tools, ranging from automations to data analytics.",
-        "Prototyped and architected agentic AI solutions.",
+        "Prototyped agentic AI solutions.",
         "Successfully integrated open-banking technology for audit engagements."
       ]
     },
@@ -43,7 +43,7 @@
       "url": "https://www.grantthornton.co.uk/services/audit-and-assurance/",
       "startDate": "2019-08-01",
       "endDate": "2022-09-01",
-      "summary": "Conducted financial statement audits for mid-market commercial entities and groups.",
+      "summary": "Progressed from Audit Associate to Assistant Manager, conducting financial statement audits for mid-market commercial entities and groups.",
       "highlights": [
         "Qualified as an ICAEW ACA Chartered Accountant and obtained the ICAEW Audit Qualification (AQ).",
         "Worked directly with client senior finance personnel and led Audit Associates to ensure that financial statements were in line with financial reporting standards, including UK GAAP FRS 102 and IFRS.",
@@ -333,6 +333,13 @@
       "keywords": [
         "PyPi",
         "crates.io"
+      ]
+    },
+    {
+      "name": "Communities",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "ICAEW Data Analytics"
       ]
     }
   ],
