@@ -23,14 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-web",
-              title: "web",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/web/";
-              },
-            },{id: "dropdown-repos",
+        },{id: "dropdown-repos",
               title: "repos",
               description: "",
               section: "Dropdown",
@@ -81,10 +74,7 @@ ninja.data = [{
             window.open("https://engine-shed.co.uk/news/reflections-from-our-scale-up-business-intern-will-dunlop/", "_blank");
           
         },
-      },{id: "news-now-a-parent",
-          title: 'now a parent',
-          description: "",
-          section: "News",},{id: "news-bbshark-is-now-on-crates-io",
+      },{id: "news-bbshark-is-now-on-crates-io",
           title: 'bbshark is now on crates.io',
           description: "",
           section: "News",},{id: "news-pycountant-is-now-on-pypi",
