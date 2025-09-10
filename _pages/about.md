@@ -25,13 +25,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a [Full-Breadth Developer](https://justin.searls.co/posts/full-breadth-developers/) leveraging my experience as a [ICAEW](https://www.icaew.com/) Chartered Accountant to build specialized solutions for the finance industry, ranging from data analytics to automations and agentic AI.
+I'm a [Full-Breadth Developer](https://justin.searls.co/posts/full-breadth-developers/) leveraging my experience as an [ICAEW](https://www.icaew.com/) Chartered Accountant to build specialized solutions for the finance industry, ranging from data analytics to automations and agentic AI.
 
 I'm also a very keen rock climber that enjoys the disciplines of Sport, Bouldering and Trad. My proudest send is on-sighting an [E1 5b](https://www.ukclimbing.com/logbook/crags/avon_gorge_suspension_bridge_area-47/howhard-29931) multi-pitch route.
 
 Beyond that, I'm a very proud father of a wonderful and bright toddler.
 
-Welcome to my personal website. Here you can glimpse into my [repositories](./repos/) and development [projects](./web/) that are in the public domain and read my [blog](./blog) posts.
+Welcome to my personal website. Here you can glimpse into my [repositories](./repos/) and read my [blog](./blog) posts.
 
 To learn more about my skills and experience, please see my [CV](./cv).
 
