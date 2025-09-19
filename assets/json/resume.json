@@ -101,6 +101,15 @@
   ],
   "volunteer": [
     {
+      "organization": "Carents",
+      "location": "Bristol, United Kingdom",
+      "position": "Financial Advisor",
+      "url": "https://carents.co.uk/",
+      "startDate": "2024-01-01",
+      "summary": "Provide accounting advice and advisory support to a organisation looking after carers of elderly parents.",
+      "highlights": []
+    },
+    {
       "organization": "NACOA ",
       "location": "Bristol, United Kingdom",
       "position": "Fundraising Volunteer",
