@@ -6,7 +6,7 @@
     "email": "",
     "phone": "",
     "url": "https://willdunlop.me",
-    "summary": "Full-Breadth Developer leveraging experience as an ICAEW Chartered Accountant to build specialized solutions for the finance industry, ranging from data analytics to automations and agentic AI.",
+    "summary": "Full-Breadth Developer leveraging experience as an ICAEW Chartered Accountant to build specialized and informed business solutions, ranging from data analytics to automations and agentic AI.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -215,7 +215,8 @@
         "FastAPI",
         "Pydantic",
         "SQL",
-        "Azure"
+        "Azure",
+        "Django"
       ]
     },
     {
@@ -227,7 +228,8 @@
         "Html",
         "CSS",
         "Jekyll",
-        "React"
+        "React",
+        "HTMX"
       ]
     },
     {
