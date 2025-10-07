@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Will Dunlop MSc ACA",
-    "label": "Full-Breadth Developer",
+    "label": "Solutions & Analytics Developer",
     "image": "",
     "email": "",
     "phone": "",
     "url": "https://willdunlop.me",
-    "summary": "Full-Breadth Developer leveraging experience as an ICAEW Chartered Accountant to build specialized and informed business solutions, ranging from data analytics to automations and agentic AI.",
+    "summary": "Solutions oriented industry specialist leveraging experience as an ICAEW Chartered Accountant to build informed business solutions and expert systems, ranging from data analytics to automations and agentic AI.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -25,16 +25,17 @@
   "work": [
     {
       "name": "Grant Thornton UK LLP",
-      "position": "Full-Breadth Developer (Digital Audit Manager)",
+      "position": "Solutions & Analytics Developer",
       "url": "https://www.grantthornton.co.uk/services/audit-and-assurance/",
       "startDate": "2022-10-01",
-      "summary": "Designed and developed various automation and analytics tools for the audit and assurance practice.",
+      "summary": "Designed and developed various automation and analytics tools to innovate and transform the audit and assurance practice.",
       "highlights": [
+        "Developed and designed over 10 digital audit tools, ranging from automations to data analytics and expert systems.",
         "Automated the generation of the public facing external auditor reports that are submitted to Companies House. The software was voted as the practice's favourite internally developed tool.",
         "Pioneered a Global Audit Common Data Model for Grant Thornton International (GTIL); Grant Thornton's international network of firms, including Grant Thornton US.",
-        "Developed and designed over 10 digital audit tools, ranging from automations to data analytics.",
         "Prototyped agentic AI solutions.",
-        "Successfully integrated open-banking technology for audit engagements."
+        "Successfully integrated open-banking technology for audit engagements.",
+        "Skilled in and experienced with various technologies, including Python (along with libraries including Pandas, spaCy, LangChain, FastAPI, Django, Pydantic), Excel, KNIME, IDEA, TypeScript, React, C#, HTMX, SQL, VBA, Power Automate and Power BI."
       ]
     },
     {
@@ -237,6 +238,8 @@
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Pandas",
+        "Power BI",
+        "KNIME",
         "SPSS",
         "STATA",
         "Research methods",
