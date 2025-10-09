@@ -30,6 +30,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/repos/";
               },
+            },{id: "dropdown-web",
+              title: "web",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/web/";
+              },
             },{id: "post-a-cli-for-everyone",
         
           title: "a cli for everyone",
@@ -80,9 +87,24 @@ ninja.data = [{
           section: "News",},{id: "news-pycountant-is-now-on-pypi",
           title: 'pycountant is now on PyPi',
           description: "",
-          section: "News",},{id: "projects-excel-add-in",
-          title: 'Excel Add-in',
-          description: "",
+          section: "News",},{id: "projects-web-browser-extensions",
+          title: 'Web Browser Extensions',
+          description: "Including a Firefox add-on to export tables found on internet web pages to CSV files",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/browser_extension/";
+            },},{id: "projects-code-amp-project-documentation",
+          title: 'Code &amp;amp; Project Documentation',
+          description: "Including a documentation, usage and reference website for the PyPi Python programming language package PyCountant",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/code_docs/";
+            },},{id: "projects-web-presence-for-businesses",
+          title: 'Web Presence for Businesses',
+          description: "Including a static site for Strata Nostra, a healthcare consultancy, enabling clients to search for and find them via the internet",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/static_sites/";
+            },},{id: "projects-office-extensions",
+          title: 'Office Extensions',
+          description: "Including a Microsoft Office Excel Add-In that enables users to reoncile numbers to a target value",
           section: "Projects",handler: () => {
               window.location.href = "/projects/xl_add_in/";
             },},{id: "teaching-python-for-accountants",
