@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Excel Add-in
-# description: with background image
-# img: assets/img/12.jpg
+title: Office Extensions
+description: Including a Microsoft Office Excel Add-In that enables users to reoncile numbers to a target value
+img: assets/img/tnb-site.png
 importance: 1
 category: web
 related_publications: false

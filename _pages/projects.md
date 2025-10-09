@@ -2,7 +2,7 @@
 layout: page
 title: web
 permalink: /web/
-description: A small glimpse into my web developments.
+description: A small glimpse into my web development skills
 nav: false
 nav_order: 3
 display_categories: [ web ]
