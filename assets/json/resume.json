@@ -330,8 +330,7 @@
       "keywords": [
         "Bouldering",
         "Sport Climbing",
-        "Trad Climbing",
-        "Avon Mountaineering Club"
+        "Trad Climbing"
       ]
     },
     {
@@ -353,7 +352,9 @@
       "name": "Communities",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "ICAEW Data Analytics"
+        "<a href=\"https://www.icaew.com/groups-and-networks/communities/data-analytics-community\">ICAEW Data Analytics</a>",
+        "<a href=\"https://www.avon-mc.org.uk/\">Avon Mountaineering Club</a>",
+        "<a href=\"https://www.codehub.org.uk/about-us\">Code Hub Bristol</a>"
       ]
     }
   ],
