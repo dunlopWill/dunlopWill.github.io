@@ -104,7 +104,7 @@ ninja.data = [{
               window.location.href = "/projects/static_sites/";
             },},{id: "projects-office-extensions",
           title: 'Office Extensions',
-          description: "Including a Microsoft Office Excel Add-In that enables users to reoncile numbers to a target value",
+          description: "Including a Microsoft Office Excel Add-In that enables users to reconcile numbers to a target value",
           section: "Projects",handler: () => {
               window.location.href = "/projects/xl_add_in/";
             },},{id: "teaching-python-for-accountants",
