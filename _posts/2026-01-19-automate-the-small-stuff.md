@@ -10,7 +10,9 @@ categories:
   - no-code
 ---
 
-## TODO Braintrust re no AI used to write post
+<a href="https://brainmade.org/">
+<img src="/assets/img/brainmade-button.png">
+</a>
 
 At 10:00 AM, a friend calls, "Want to get some coffee together at 11:30 this morning?"
 
@@ -58,27 +60,29 @@ How could it be in my calendar without me having to have had opened my emails fi
 
 That's where automation comes in.
 
-## Requirements
+## My user story
 
-What did I need? Something to:
+GIVEN I receive a delivery notification email from DPD
+
+WHEN I view my Google calendar
+
+THEN I see the delivery slot details as a calendar event
+
+## Small investment
+
+What did I need to implement these requirements? Something that can:
 
 - monitor my delivery notification emails from DPD
 - parse and extract the key delivery details from relevant emails
 - create and add an event in my Google calendar for the delivery slot
 
-## Small investment
+I chose to do this with [n8n](n8n.io); a low-code automation platform that provides high level abstractions to build workflows quickly.
 
-[n8n](n8n.io) is a low-code automation platform that provides high level abstractions to build workflows quickly.
-
-I was able to implement what I needed using just 3 nodes.
+And I did it with just 3 nodes.
 
 TODO INSERT IMAGE
 
 How long did it take? Less than 10 minutes, and most of that was configuring my Google Cloud console to enable the relevant APIs.
-
-You can do this too. Here is a copy of my template to get started:
-
-TODO LINK TEMPLATE
 
 ## Big returns
 
@@ -88,7 +92,7 @@ After all, checking an email and making a calendar event only takes a minute.
 
 In terms of time, it only takes 10 deliveries for me to break even.
 
-TODO INSERT RELEVENT XKCD IMG
+<img src="https://imgs.xkcd.com/comics/is_it_worth_the_time_2x.png" width=400>
 
 But, **its not just about the time** saved.
 

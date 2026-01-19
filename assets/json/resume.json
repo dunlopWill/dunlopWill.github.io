@@ -218,7 +218,8 @@
         "Pydantic",
         "SQL",
         "Azure",
-        "Django"
+        "Django",
+        "n8n"
       ]
     },
     {
@@ -254,7 +255,9 @@
         "LangChain",
         "LangGraph",
         "LLMs",
-        "FastMCP"
+        "FastMCP",
+        "Ollama",
+        "Open WebUI"
       ]
     },
     {
