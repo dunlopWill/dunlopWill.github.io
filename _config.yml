@@ -252,7 +252,7 @@ jekyll-archives:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: [] # these tags will be displayed on the front page of your blog
-display_categories: ["excel", "tech"] #"external-services"] # these categories will be displayed on the front page of your blog
+display_categories: ["automation", "excel", "python", "n8n", "rust"] #"external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
