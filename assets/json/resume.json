@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Will Dunlop MSc ACA",
-    "label": "Solutions & Analytics Developer",
+    "label": "",
     "image": "",
     "email": "",
     "phone": "",
-    "url": "https://willdunlop.me",
+    "url": "",
     "summary": "Solutions oriented industry specialist leveraging experience as an ICAEW Chartered Accountant to build informed business solutions and expert systems, ranging from data analytics to automations and agentic AI.",
     "location": {
       "address": "",
@@ -25,16 +25,16 @@
   "work": [
     {
       "name": "Grant Thornton UK LLP",
-      "position": "Solutions & Innovation Architect",
+      "position": "Digital Audit Manager | Solutions & Innovation Architect",
       "url": "https://www.grantthornton.co.uk/services/audit-and-assurance/",
       "startDate": "2022-10-01",
-      "summary": "Architected, designed and developed various solutions to innovate and transform the audit and assurance practice.",
+      "summary": "Enabled data-driven decision making and developed various solutions to innovate and transform the audit practice.",
       "highlights": [
-        "Automated the generation of the audit practice's core product, creating the practice's voted favourite internal tool; saving over 3000 hours annually of senior staff time and delivering ~£300k of value in perpetuity.",
-        "Led a cost-saving initiative after a supplier proposed a 200% fee increase, identifying and demonstrating that a combination of in-house and open-source tools could replicate key functionality for ~£2k/year, resulting in a renegotiated contract saving £250k annually.",
-        "Architected, designed, and developed 15+ digital audit tools, spanning automation, data analytics, agentic AI, and expert systems; enhancing audit efficiency and insight generation.",
-        "Pioneered the Global Audit Common Data Model adopted by Grant Thornton International (GTIL); enabling consistent data standards across the global network, including Grant Thornton US.",
-        "Recognised as a trusted expert in implementing cutting-edge solutions and emerging technologies, including open banking integrations.",
+        "Created the practice’s voted favourite internally developed tool; saving over 3,000 hours annually of senior staff time and delivering ~£0.3m of value in perpetuity.",
+        "Led a cost-saving initiative after a supplier proposed a 200% fee increase, identifying and demonstrating that a combination of in-house and open-source tools could replicate key functionality for ~£2k/year, resulting in a renegotiated contract saving £0.25m.",
+        "Architected, designed, and developed 15+ digital audit tools, spanning automation, data analytics, agentic AI and expert systems; enhancing audit efficiency and insight generation.",
+        "Pioneered a Global Audit Common Data Model adopted by Grant Thornton International (GTIL); enabling consistent data standards across the global network, including Grant Thornton US.",
+        "Recognized as a trusted expert in implementing cutting-edge solutions and emerging technologies, including open banking integrations.",
         "Drove the evaluation and selection of ERP data ingestion solutions for the audit practice, engaging senior stakeholders including the CTO; the resulting analysis was praised by the Director as \"one of the best pieces of work produced by the team.\"",
         "Proficient across a wide technology stack, including Python (Pydantic, Pandas, spaCy, LangChain, FastAPI, Django), TypeScript/React, SQL, C#, and Power Platform tools (Power BI, Power Automate)."
       ]
