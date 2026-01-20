@@ -8,23 +8,28 @@ categories:
   - n8n
   - low-code
   - no-code
+featured: true
 ---
 
 <a href="https://brainmade.org/">
 <img src="/assets/img/brainmade-button.png">
 </a>
 
-At 10:00 AM, a friend calls, "Want to get some coffee together at 11:30 this morning?"
+## Sunday morning
+
+At friend messages me, "Want to get some coffee at 11:30?"
+
+<img src="/assets/img/message-re-coffee.png" width=400>
 
 I look at my calendar. My schedule is free. "Sounds perfect!".
 
-TODO INSERT IMAGE
+<img src="/assets/img/free-schedule.png" width=400>
 
-Later on, at 11:00 AM, not long before I need to set off, I check my emails.
+Later on, around 11:00 AM, not long before I need to set off, I check my emails.
 
-I can partially see the subject "Your Huel order will be delivered today between...".
+The subject "Your Huel order will be delivered today between..." stares back at me.
 
-TODO INSERT IMAGE
+<img src="/assets/img/huel-delivery-email.png" width=400>
 
 I begin to feel a small amount of anxiety. "Please be late afternoon".
 
@@ -32,17 +37,17 @@ Taking the plunge, I tap to open the email.
 
 Sod's law. In plain text, it states "between 11:10 - 12:10".
 
-TODO INSERT IMAGE
+<img src="/assets/img/dpd-delivery-slot.png" width=400>
 
-Not a big deal, except now I'm facing decision fatigue. What do I do?
+Not a big deal, except now I'm facing decision fatigue. What should I do?
 
-Should I reschedule with my friend so I'm in to take delivery, but what if they have already left to meet me?
+Do I reschedule with my friend so I'm in to take delivery, but what if they have already left to meet me?
 
 There are other options. Perhaps I could opt to leave the package in a "safe place"? Only, they're not that safe. I don't want to be worrying that my package is at risk of being nicked by a passer-by whilst I'm out.
 
 Why didn't I know about this sooner? I look at the email receipt time. "8:39 AM".
 
-TODO INSERT IMAGE
+<img src="/assets/img/email-receipt-time.png" width=400>
 
 Ah, that's on me. I could have checked my emails earlier.
 
@@ -76,13 +81,19 @@ What did I need to implement these requirements? Something that can:
 - parse and extract the key delivery details from relevant emails
 - create and add an event in my Google calendar for the delivery slot
 
-I chose to do this with [n8n](n8n.io); a low-code automation platform that provides high level abstractions to build workflows quickly.
+Whilst I would usually reach for Python, I chose [n8n](n8n.io); a low-code automation platform that provides high level abstractions to build workflows quickly.
 
-And I did it with just 3 nodes.
+<img src="/assets/img/n8n_pink+black_logo.png" width=400>
 
-TODO INSERT IMAGE
+Why? I could do it with just 3 nodes.
+
+<img src="/assets/img/n8n-workflow.png" width=400>
 
 How long did it take? Less than 10 minutes, and most of that was configuring my Google Cloud console to enable the relevant APIs.
+
+Now these delivery slots appear in my calendar seamlessly.
+
+<img src="/assets/img/dpd-cal-event.png" width=400>
 
 ## Big returns
 
