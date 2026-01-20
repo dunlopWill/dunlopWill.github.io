@@ -37,7 +37,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/web/";
               },
-            },{id: "post-a-cli-for-everyone",
+            },{id: "post-automate-the-small-stuff",
+        
+          title: "automate the small stuff",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/automate-the-small-stuff/";
+          
+        },
+      },{id: "post-a-cli-for-everyone",
         
           title: "a cli for everyone",
         
@@ -102,11 +113,6 @@ ninja.data = [{
           description: "Including a static site for Strata Nostra, a healthcare consultancy, enabling clients to search for and find them via the internet",
           section: "Projects",handler: () => {
               window.location.href = "/projects/static_sites/";
-            },},{id: "projects-office-extensions",
-          title: 'Office Extensions',
-          description: "Including a Microsoft Office Excel Add-In that enables users to reconcile numbers to a target value",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/xl_add_in/";
             },},{id: "teaching-python-for-accountants",
           title: 'Python for Accountants',
           description: "",
