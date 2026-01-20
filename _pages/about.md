@@ -29,7 +29,7 @@ I'm a solutions oriented industry specialist leveraging my experience as an [ICA
 
 I'm also a very keen rock climber that enjoys the disciplines of Sport, Bouldering and Trad. My proudest send is on-sighting an [E1 5b](https://www.ukclimbing.com/logbook/crags/avon_gorge_suspension_bridge_area-47/howhard-29931) multi-pitch route.
 
-Beyond that, I'm a very proud father of a wonderful and bright toddler.
+Beyond that, I'm a very proud father of two wonderful and bright boys.
 
 Welcome to my personal website. Here you can glimpse into my [repositories](./repos/) and read my [blog](./blog) posts.
 
