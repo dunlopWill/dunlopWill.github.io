@@ -23,9 +23,7 @@ featured: true
 
 ## Accountants are *de facto* developers
 
-I first heard of [Developer Accountants](https://silverfin.com/resources/developer-accountant-intro/) from [Silverfin](https://silverfin.com/).
-
-And it got me thinking... *most* accountants are *de facto* developers.
+*Most* accountants are *de facto* developers.
 
 The *de jure* job title might suggest otherwise but when the daily activities of accountants are observed, a different picture emerges.
 
@@ -39,7 +37,7 @@ The *de jure* job title might suggest otherwise but when the daily activities of
     </div>
 </div>
 
-"[*...This pisses a lot of developers off because it turns out that people in the accounts department have been doing FP [Functional Programming] for longer than they have.*](https://youtube.com/shorts/YPSGL2MsES4?feature=shared)" - [Kevlin Henney](https://x.com/kevlinhenney?lang=en)
+"[*...it turns out that people in the accounts department have been doing FP [Functional Programming] for longer than they [developers] have.*](https://youtube.com/shorts/YPSGL2MsES4?feature=shared)" - [Kevlin Henney](https://x.com/kevlinhenney?lang=en)
 
 That's right.
 Spreadsheets rule the profession.
