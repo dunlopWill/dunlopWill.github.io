@@ -173,6 +173,14 @@
   ],
   "certificates": [
     {
+      "name": "Microsoft Certified: Azure Fundamentals",
+      "date": "2026-02-17",
+      "issuer": "Microsoft",
+      "url": "https://learn.microsoft.com/en-gb/users/willdunlop-2264/credentials/99e50f1b215b84ec",
+      "icon": "fa-solid fa-location-tag"
+
+    },
+    {
       "name": "Foundational C#",
       "date": "2025-02-01",
       "issuer": "Microsoft",
