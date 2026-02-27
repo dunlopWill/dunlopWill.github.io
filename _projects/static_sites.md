@@ -22,4 +22,4 @@ Documentation, usage and reference website for the PyPi Python programming langu
 
 ## Example - Online CVs
 
-<iframe width="560" height="315" src="http://127.0.0.1:8080/cv/" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://willdunlop.me/cv/" allowfullscreen></iframe>
