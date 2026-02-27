@@ -104,19 +104,19 @@ ninja.data = [{
           section: "News",},{id: "news-microsoft-certified-in-azure-fundamentals",
           title: 'microsoft certified in azure fundamentals',
           description: "",
-          section: "News",},{id: "projects-web-browser-extensions",
-          title: 'Web Browser Extensions',
-          description: "Including a Firefox add-on to export tables found on internet web pages to CSV files",
+          section: "News",},{id: "projects-browser-extensions",
+          title: 'Browser Extensions',
+          description: "TypeScript, JavaScript, web-ext",
           section: "Projects",handler: () => {
               window.location.href = "/projects/browser_extension/";
-            },},{id: "projects-code-amp-project-documentation",
-          title: 'Code &amp;amp; Project Documentation',
-          description: "Including a documentation, usage and reference website for the PyPi Python programming language package PyCountant",
+            },},{id: "projects-ms-office-web-add-ins",
+          title: 'MS Office Web Add-ins',
+          description: "Office.js, FluentUI, React, TypeScript, JavaScript, Python, FastAPI",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/code_docs/";
-            },},{id: "projects-web-presence-for-businesses",
-          title: 'Web Presence for Businesses',
-          description: "Including a static site for Strata Nostra, a healthcare consultancy, enabling clients to search for and find them via the internet",
+              window.location.href = "/projects/office_web_add_ins/";
+            },},{id: "projects-static-web-sites",
+          title: 'Static Web Sites',
+          description: "Wordpress, Wix, HTML, CSS, JavaScript, Ruby, Jekyll, mkdocs",
           section: "Projects",handler: () => {
               window.location.href = "/projects/static_sites/";
             },},{id: "teaching-python-for-accountants",
