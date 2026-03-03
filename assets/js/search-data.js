@@ -111,7 +111,7 @@ ninja.data = [{
               window.location.href = "/projects/browser_extension/";
             },},{id: "projects-ms-office-web-add-ins",
           title: 'MS Office Web Add-ins',
-          description: "Office.js, FluentUI, React, TypeScript, JavaScript, Python, FastAPI",
+          description: "Office.js, FluentUI, React, TypeScript, JavaScript, Python, FastAPI, SQL",
           section: "Projects",handler: () => {
               window.location.href = "/projects/office_web_add_ins/";
             },},{id: "projects-static-web-sites",
