@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MS Office Web Add-ins
-description: Office.js, FluentUI, React, TypeScript, JavaScript, Python, FastAPI
+description: Office.js, FluentUI, React, TypeScript, JavaScript, Python, FastAPI, SQL
 img: https://learn.microsoft.com/en-us/office/dev/add-ins/images/addins-overview.png
 importance: 1
 category: web
