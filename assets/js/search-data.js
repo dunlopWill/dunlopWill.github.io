@@ -107,11 +107,19 @@ ninja.data = [{
           section: "News",},{id: "news-obtained-certificate-of-completion-from-anthropic-for-claude-code-in-action",
           title: 'obtained certificate of completion from anthropic for claude code in action',
           description: "",
+          section: "News",},{id: "news-the-fastaccountant-mcp-server-is-now-live",
+          title: 'the fastaccountant mcp server is now live',
+          description: "",
           section: "News",},{id: "projects-browser-extensions",
           title: 'Browser Extensions',
           description: "TypeScript, JavaScript, web-ext",
           section: "Projects",handler: () => {
               window.location.href = "/projects/browser_extension/";
+            },},{id: "projects-mcp-servers",
+          title: 'MCP Servers',
+          description: "Python, FastMCP, Docker, AI, LLMs",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mcp_servers/";
             },},{id: "projects-ms-office-web-add-ins",
           title: 'MS Office Web Add-ins',
           description: "Office.js, FluentUI, React, TypeScript, JavaScript, Python, FastAPI, SQL",
