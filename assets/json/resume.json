@@ -173,6 +173,13 @@
   ],
   "certificates": [
     {
+      "name": "Introduction to agent skills",
+      "date": "2026-03-18",
+      "issuer": "ANTHROPIC",
+      "url": "https://verify.skilljar.com/c/dz9s38pnyw7k",
+      "icon": "fa-solid fa-location-tag"
+    },
+    {
       "name": "Claude Code in Action",
       "date": "2026-03-12",
       "issuer": "ANTHROPIC",
@@ -209,6 +216,7 @@
       "name": "Cybersecurity Essentials",
       "date": "2018-01-01",
       "issuer": "CISCO",
+      "url": "https://www.credly.com/badges/eaa9e0e5-2349-4516-85ba-74f74bda0b7a?source=linked_in_profile",
       "icon": "fa-solid fa-location-tag"
     }
   ],
