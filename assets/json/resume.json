@@ -173,6 +173,13 @@
   ],
   "certificates": [
     {
+      "name": "Claude 101",
+      "date": "2026-03-23",
+      "issuer": "ANTHROPIC",
+      "url": "http://verify.skilljar.com/c/6texpk5ft5ks",
+      "icon": "fa-solid fa-location-tag"
+    },
+    {
       "name": "Introduction to agent skills",
       "date": "2026-03-18",
       "issuer": "ANTHROPIC",
