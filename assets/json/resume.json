@@ -173,6 +173,13 @@
   ],
   "certificates": [
     {
+      "name": "Introduction to Claude Cowork",
+      "date": "2026-03-30",
+      "issuer": "ANTHROPIC",
+      "url": "https://verify.skilljar.com/c/g5mjnv3qzogi",
+      "icon": "fa-solid fa-location-tag"
+    },
+    {
       "name": "Claude 101",
       "date": "2026-03-23",
       "issuer": "ANTHROPIC",
