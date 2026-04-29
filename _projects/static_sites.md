@@ -2,13 +2,17 @@
 layout: page
 title: Static Web Sites 
 description: Wordpress, Wix, HTML, CSS, JavaScript, Ruby, Jekyll, mkdocs
-img: assets/img/strata-nostra.png
+img: assets/img/technbash.png
 importance: 3
 category: web
 related_publications: false
 ---
 
 ## Example - Web presence for businesses
+
+<iframe width="560" height="315" src="https://technbash.com" allowfullscreen></iframe>
+
+Learn more about [tech+bash](https://tech+bash.com/about/).
 
 <img width="560" height="315" src="/assets/img/strata-nostra.png"/>
 
