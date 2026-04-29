@@ -173,6 +173,13 @@
   ],
   "certificates": [
     {
+      "name": "Introduction to subagents",
+      "date": "2026-04-02",
+      "issuer": "ANTHROPIC",
+      "url": "http://verify.skilljar.com/c/xtqcbjkzfq9r",
+      "icon": "fa-solid fa-location-tag"
+    },
+    {
       "name": "Introduction to Claude Cowork",
       "date": "2026-03-30",
       "issuer": "ANTHROPIC",
